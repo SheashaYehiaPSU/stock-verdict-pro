@@ -1,0 +1,10 @@
+# downloaded and generated files (rebuilt by the daily update)
+raw/
+site/
+dist/
+data/site_data.json
+data/pe_check.json
+__pycache__/
+.DS_Store
+.claude/
+data/my_stocks.json
