@@ -1,59 +1,320 @@
 {
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-29",
   "economy": {
-    "summary": "Big week: the Fed decides on rates Wednesday, Microsoft and Alphabet report Wednesday, Amazon on Thursday, and Q3 GDP and September PCE inflation come out Thursday morning. Last week, worries about AI spending hit big tech after Meta's report (Oct 22 was the Nasdaq's worst day since June), then Anthropic's IPO filing lifted AI stocks on Monday. The backdrop hasn't changed: a war-driven oil shock is keeping inflation high and the Fed leaning toward hikes while hiring has nearly stopped. That's hard on stocks priced for fast growth and kinder to energy producers, banks and steady defensive companies.",
-    "fed": "The Fed raised rates in September, its first hike in three years, because oil pushed inflation up. It's expected to hold at 3.75–4.00% on Oct 28, but futures see roughly an 80% chance of another hike in December.",
-    "fedNext": "The Fed announces its decision on Wednesday, Oct 28, at 2 pm ET; this meeting brings no new forecasts. Futures put the chance of no change at about 90% and the chance of a quarter-point hike at the Dec 8–9 meeting at about 80% (CME FedWatch, Oct 26). Thursday's reports on September PCE inflation and Q3 GDP (forecast near 3%) will shape the December decision.",
+    "summary": "Busy week. The Fed held rates on Oct 28, but two officials voted for another hike. On Oct 29, Q3 GDP grew a stronger-than-expected 3.4% while September PCE inflation rose to 3.6%, so the economy is growing but prices are still running hot. Big tech earnings split: Microsoft beat, but Alphabet had its worst day since 2004 (about −13%) on a profit miss and heavy AI spending, and ServiceNow fell about 25% on slowing growth. Amazon reports Oct 29 after the close and AMD on Nov 3. The backdrop is unchanged: a war-driven oil shock keeps inflation high and the Fed leaning toward hikes, which is hard on stocks priced for fast growth.",
+    "fed": "The Fed raised rates in September, then held at 3.75–4.00% on Oct 28 in a 10–2 vote; the two dissenters wanted another hike. It gave no clear signal about December.",
+    "fedNext": "The next meeting is Dec 8–9. On Oct 28 the Fed held at 3.75–4.00% (Lisa Cook and Beth Hammack voted for a hike) and said it wants more information before acting again. Since then, Q3 GDP grew 3.4% and September PCE inflation rose to 3.6% (core 3.1%), both on Oct 29. Markets price about one more quarter-point hike in 2026. Chair Warsh also said the Fed will hold fewer meetings starting in 2027.",
     "oil": "The US–Iran war has largely shut the Strait of Hormuz since late February. Brent crude settled near $117 a barrel on Oct 23, a six-month high, as traders bet the U.S. could resume strikes on Iran; U.S. crude (WTI) was about $101 on Oct 26.",
     "sources": [
-      ["What to expect from the Fed's Oct 28 decision (CNBC, Oct 26)", "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"],
-      ["CME FedWatch: live odds for the next Fed meetings", "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"],
-      ["This week's economic calendar: the Fed, GDP and PCE (Kiplinger)", "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"],
-      ["Brent hits a six-month high on Iran tensions (CNBC, Oct 23)", "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"],
-      ["Meta sinks as AI spending turns free cash flow negative (CNBC, Oct 22)", "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"],
-      ["Big Tech earnings to test the AI boom (Korea Times)", "https://www.koreatimes.co.kr/world/20261028/big-tech-earnings-to-test-ai-boom-amid-market-turmoil"],
-      ["Anthropic files for its IPO: live updates (CNBC, Oct 26)", "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"],
-      ["September CPI 3.7% vs. 3.6% expected (investinglive)", "https://investinglive.com/news/us-september-cpi-vs-3-6-expected-0/"],
-      ["September jobs report (Bureau of Labor Statistics)", "https://www.bls.gov/news.release/archives/empsit_10022026.htm"]
+      [
+        "Fed holds rates steady (CNBC, Oct 28)",
+        "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+      ],
+      [
+        "Fed holds, wants more data before the next move (Bloomberg)",
+        "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision"
+      ],
+      [
+        "Q3 GDP up 3.4% as September inflation accelerates (CNBC, Oct 29)",
+        "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+      ],
+      [
+        "GDP advance estimate, Q3 2026 (BEA)",
+        "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+      ],
+      [
+        "CME FedWatch: live odds for the next Fed meetings",
+        "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+      ],
+      [
+        "Alphabet heads for its biggest drop in market value (Yahoo Finance)",
+        "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"
+      ],
+      [
+        "Brent hits a six-month high on Iran tensions (CNBC, Oct 23)",
+        "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+      ],
+      [
+        "September CPI 3.7% vs. 3.6% expected (investinglive)",
+        "https://investinglive.com/news/us-september-cpi-vs-3-6-expected-0/"
+      ],
+      [
+        "September jobs report (Bureau of Labor Statistics)",
+        "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+      ]
     ]
   },
   "updates": {
-    "GOOGL": ["Oct 27, 2026", "Reports Q3 on Oct 28 after the close. Analysts expect revenue up about 25% to $128B and Google Cloud sales up about 95% to $29.6B (LSEG), while Search growth slows to about 15%; free cash flow is expected to be negative for a second straight quarter because of AI spending. The stock fell 8% from Oct 19 to Oct 26 as AI-spending worries spread after Meta's report. Separately, Anthropic filed for its IPO on Oct 26; Alphabet owns roughly 14% of it, and the filing gives Alphabet an option to buy up to $10B more at the IPO price.",
-      [["Big Tech earnings preview (Korea Times)", "https://www.koreatimes.co.kr/world/20261028/big-tech-earnings-to-test-ai-boom-amid-market-turmoil"], ["Alphabet and its Anthropic stake (Motley Fool)", "https://www.fool.com/investing/2026/10/27/alphabet-is-set-to-become-an-even-bigger-anthropic/"]]],
-    "MSFT": ["Oct 27, 2026", "Reports fiscal Q1 on Oct 28 after the close, a few hours after the Fed decision. Analysts expect revenue up about 17% to $90.7B and Azure cloud growth near 48%, up from 42% (Visible Alpha). Microsoft will report under new segments, \"Agents and Infra\" and \"Devices and Consumer\", and disclose Azure's quarterly revenue for the first time.",
-      [["Big Tech earnings preview (Korea Times)", "https://www.koreatimes.co.kr/world/20261028/big-tech-earnings-to-test-ai-boom-amid-market-turmoil"]]],
-    "AMZN": ["Oct 27, 2026", "Reports Q3 on Oct 29 after the close. Amazon guided sales to $197B–$202B (up 9–12%) and operating income to $22.5B–$26.5B; analysts expect about $202B in sales, EPS near $1.96 and AWS growth of roughly 35–38%. It raised its 2026 capital spending plan to about $220B, so free cash flow is expected to stay negative. Amazon also owns a large stake in Anthropic (analysts estimate 15–20%), which filed for its IPO on Oct 26.",
-      [["Amazon Q3 2026 preview (Pepperstone)", "https://pepperstone.com/en/insights/market-analysis/equities/amazon-q3-2026-earnings-preview"], ["Big Tech earnings preview (Korea Times)", "https://www.koreatimes.co.kr/world/20261028/big-tech-earnings-to-test-ai-boom-amid-market-turmoil"], ["Anthropic's IPO and Amazon (Yahoo Finance)", "https://finance.yahoo.com/technology/ai/articles/anthropics-ipo-300-billion-test-014700775.html"]]],
-    "META": ["Oct 21, 2026", "Q3 revenue rose 26% to $64.6B and Q4 is guided to $73B–$76B. But a $9.9B legal charge (a settlement with 52 state attorneys general over teen mental-health claims) cut operating income 37%; without it, EPS would have been $7.40 instead of $3.83. Capital spending of $34.9B was more than the business brought in, so free cash flow was negative $2.1B, and Meta raised the low end of its 2026 capex range (now $135B–$145B). It also plans a non-voting Class C share, handed out as a one-for-one stock dividend in January 2027. The stock fell 7% the next day.",
-      [["Meta Q3 2026 results (Meta)", "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"], ["Meta sinks as free cash flow turns negative (CNBC)", "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"]]],
-    "NVDA": ["Oct 26, 2026", "A market-driven week: the stock fell 4.4% on Oct 22 in the AI-spending selloff, then rose 2.4% to $216 on Oct 26 as Anthropic's IPO filing lifted chip stocks; it's about 10% below its record close of $239. Nvidia also expanded its security partnership with CrowdStrike. Next earnings: Nov 18.",
-      [["Why Nvidia rose on Monday (Invezz)", "https://invezz.com/news/2026/10/26/why-nvidia-shares-are-rising-on-monday/"]]],
-    "HOOD": ["Oct 27, 2026", "Reports Q3 on Oct 27 after the close, with a call at 5 pm ET. Analysts expect revenue of about $1.34B–$1.41B and EPS of about $0.50–$0.54, compared with $1.31B and $0.62 in Q2. The stock fell about 4% from Oct 19 to Oct 26 and is down 18% this year.",
-      [["Robinhood Q3 2026 results date (GlobeNewswire)", "https://www.globenewswire.com/news-release/2026/10/01/3373375/0/en/index.html"], ["Q3 2026 earnings preview (Hudson Labs)", "https://www.hudson-labs.com/research/robinhood-q3-2026-earnings-preview-hood-results-and-outlook"]]],
-    "SOFI": ["Oct 27, 2026", "Record Q3: adjusted net revenue rose 44% to $1.37B, adjusted EBITDA rose 70% to $470M, net income was $241M ($0.18 a share, up from $0.11) and members grew 35% to 17.1 million. SoFi raised its 2026 outlook to about $5.04B in adjusted net revenue and $0.61 in EPS, and gave a first 2027 outlook of about $6.4B in revenue and $0.90 in EPS.",
-      [["SoFi Q3 2026 results (SEC 8-K)", "https://www.sec.gov/Archives/edgar/data/0001818874/000181887426000065/a2026q3earningsrelease.htm"]]],
-    "UNH": ["Oct 13, 2026", "Q3 beat (adjusted EPS $4.69 vs. $4.15 expected) and 2026 guidance was raised to at least $20.50 per share.", []],
-    "TSLA": ["Oct 21, 2026", "Q3 revenue was flat at $28.1B, but gross margin improved to 19.6% (from 18.0% a year ago) and adjusted EPS of $0.48 beat the $0.45 estimate. GAAP net income fell 43% to $787M, the operating margin was just 2.6%, energy revenue fell 16%, and free cash flow was $1.5B (vs. $4.0B a year ago). Tesla said its robotaxis have driven nearly 2 million unsupervised miles. The stock fell 3% the day after the report, then jumped 5% on Oct 26.",
-      [["Tesla Q3 2026 results (Electrek)", "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"], ["Q3 beat on margins and cash flow (investinglive)", "https://investinglive.com/stocks/tesla-q3-earnings-beat-as-margins-and-cash-flow-surprise-revenue-narrowly-misses/"]]],
-    "NFLX": ["Oct 20, 2026", "Q3 EPS of $0.87 beat the $0.82 estimate and revenue of $12.9B (up 12%) matched, with a 34.6% operating margin. But Q4 revenue guidance of $13.4B came in under the $13.5B expected, and Netflix cut its 2026 ad revenue forecast to about $2.7B from $3B, citing a slower rollout of some ad features. The stock fell 5% the next day and closed at $63.90 on Oct 26, down 32% this year.",
-      [["Netflix Q3 2026 letter (SEC 8-K)", "https://www.sec.gov/Archives/edgar/data/0001065280/000106528026000290/ex991_q326.htm"], ["Why Netflix fell despite the beat (Finviz)", "https://finviz.com/news/405568/why-is-netflix-stock-falling-over-5-despite-beating-third-quarter-earnings-estimates"]]],
-    "CRWD": ["Oct 26, 2026", "Rose about 15% from Oct 19 to Oct 26 as cybersecurity stocks rallied on worries about a wave of AI-enabled cyberattacks. CrowdStrike also expanded its partnership with Nvidia to build security in at the chip level, and Mizuho raised its price target to $275. The stock has more than doubled this year.",
-      [["CrowdStrike and the cyber rally (Benzinga)", "https://www.benzinga.com/trading-ideas/movers/26/10/62589099/crowdstrike-stock-rose-friday-amid-cyber-rally-heres-a-look-at-the-week"], ["Why CrowdStrike is climbing (Investing.com)", "https://in.investing.com/news/stock-market-news/why-is-crowdstrike-stock-climbing-today-93CH-5648688"]]],
-    "NOW": ["Oct 26, 2026", "Rose about 9% from Oct 19 to Oct 26, to its highest level since December, as fears that AI tools would eat into software sales eased. Reports Q3 on Oct 28.",
-      [["ServiceNow rebounds as 'SaaSpocalypse' fears fade (Benzinga)", "https://benzinga.com/markets/equities/26/10/62580441/servicenow-stock-rebounds-as-saaspocalypse-fears-fade-what-to-expect-from-earnings"]]],
-    "KO": ["Oct 27, 2026", "Q3 EPS of $0.91 and revenue of $13.4B beat estimates, and Coca-Cola raised its full-year outlook to about 11% earnings growth. Shares dipped anyway on slowing demand in North America, after a record close on Oct 22; the stock is up about 33% this year.",
-      [["Coca-Cola pulls back on slowing U.S. demand (Schaeffer's)", "https://www.schaeffersresearch.com/content/news/2026/10/27/coca-cola-stock-pulls-back-amid-slowing-us-demand"]]],
-    "BA": ["Oct 27, 2026", "Q3 revenue of $24.2B came in slightly above forecasts, but the core loss of $0.34 a share was wider than analysts expected (GAAP loss: $0.26). Free cash flow was positive at $0.5B, the order backlog hit a record $745B, and Boeing delivered 161 commercial jets in the quarter.",
-      [["Boeing Q3 2026 results (SEC 8-K)", "https://www.sec.gov/Archives/edgar/data/0000012927/000162828026067411/a202609sep308kprex991.htm"], ["Q3 deliveries (Boeing)", "https://boeing.mediaroom.com/2026-10-13-Boeing-Announces-Third-Quarter-Deliveries"]]],
-    "PYPL": ["Oct 27, 2026", "Q3 adjusted EPS rose 8% to $1.45, well above the roughly $1.31 expected, but revenue grew only 2% to $8.6B, a bit short of forecasts. GAAP EPS fell 4% to $1.25.",
-      [["PayPal Q3 2026 results (SEC 8-K)", "https://www.sec.gov/Archives/edgar/data/0001633917/000163391726000086/pypl3q-26earningsrelease.htm"]]],
-    "NKE": ["Oct 1, 2026", "Fiscal Q1 beat on profit (adjusted EPS $0.48 vs. $0.44 expected), but revenue fell 4% to $11.2B, Greater China sales fell 22%, and Nike now expects fiscal 2027 revenue to fall by a high-single-digit percentage with EPS of $1.15 to $1.35 (Wall Street had about $1.67). It also launched a $2.5B cost-savings plan.",
-      [["Nike Q1 beat, weak outlook (investinglive)", "https://investinglive.com/stocks/nike-beats-q1-profit-estimates-but-sees-fiscal-2027-revenue-falling-high-single-digits/"], ["Nike drops on weak outlook (Tradingpedia)", "https://www.tradingpedia.com/2026/10/02/nike-drops-as-weak-outlook-overshadows-earnings-beat/"]]],
-    "JPM": ["Oct 13, 2026", "Q3 profit rose 6% to $15.3B and revenue rose 8% to $50.2B, but adjusted EPS of $5.75 missed estimates near $5.85. Equity trading jumped 49%, buybacks were cut 84% from Q2, and the full-year net interest income outlook was raised to about $106B.",
-      [["JPMorgan Q3 2026 (WealthBriefing)", "https://www.wealthbriefing.com/html/article.php/net-income-for-third-quarter-2026-rises-at-jp-morgan"], ["Q3 analysis (money365)", "https://www.money365.market/articles/jp-morgan-q3-2026-earnings-analysis"]]],
-    "TSM": ["Oct 15, 2026", "Q3 revenue of $46.7B (up 41%) beat the top of its own guidance; EPS rose 69% with a 58.7% operating margin. TSMC guided Q4 revenue to $52.3B to $54.3B (about 58% growth) and now expects 2026 revenue to grow about 44%.",
-      [["TSMC Q3 2026 release (SEC 6-K)", "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"]]],
-    "ASML": ["Oct 14, 2026", "Record Q3 sales of 11.7B euros with a 57.5% gross margin. ASML guided Q4 sales to 14.2B to 15.2B euros and full-year 2026 to 44B to 45B euros, saying customers raised equipment plans because of AI.",
-      [["ASML Q3: record quarter (Hargreaves Lansdown)", "https://www.hl.co.uk/shares/share-research/asml-q3-results-record-quarter-capacity-the-constraint"], ["Record bookings confirm AI upcycle (Morningstar)", "https://www.morningstar.com/stocks/asml-earnings-record-bookings-confirm-ai-upcycle-into-2027"]]]
+    "GOOGL": [
+      "Oct 28, 2026",
+      "Q3 revenue rose 25% to about $127.6B, slightly below estimates, and Google Cloud grew 103% to $30.7B. But adjusted EPS of $2.12 fell far short of the roughly $3.00 expected, free cash flow was negative $9.1B, Alphabet kept its 2026 capex plan at $195B–$205B, and Other Bets lost $20.4B. The stock fell about 13% on Oct 29, its worst day since going public in 2004, wiping out roughly $500B of market value.",
+      [
+        [
+          "Alphabet heads for its biggest drop in market value (Yahoo Finance)",
+          "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"
+        ],
+        [
+          "Alphabet tumbles after Q3 results (Benzinga)",
+          "https://www.benzinga.com/markets/market-summary/26/10/62697318/nasdaq-dips-over-400-points-alphabet-shares-tumble-after-downbeat-q3-results"
+        ]
+      ]
+    ],
+    "MSFT": [
+      "Oct 28, 2026",
+      "Fiscal Q1 revenue rose 19% to $92.3B and adjusted EPS was $4.89, both above estimates. Azure grew 48%, beating Microsoft's own 44–45% forecast, to $33.2B; Microsoft Cloud reached $63.9B (up 30%); and the Q2 outlook calls for Azure growth of 49–50%. Capex of $45.2B came in below the roughly $50.7B expected. Shares rose about 4% after hours but slipped about 1% on Oct 29 as Alphabet's drop weighed on tech.",
+      [
+        [
+          "Microsoft beats as Azure grows 48% (SiliconANGLE)",
+          "https://siliconangle.com/2026/10/28/microsofts-stock-rises-on-solid-earnings-and-revenue-beat-with-azure-growing-48/"
+        ],
+        [
+          "Azure beats Microsoft's own forecast again (Stock Titan)",
+          "https://www.stocktitan.net/articles/microsoft-q1-fiscal-2027-earnings-azure-growth-ai-spending"
+        ]
+      ]
+    ],
+    "AMZN": [
+      "Oct 29, 2026",
+      "Reports Q3 today, Oct 29, after the close. Amazon guided sales to $197B–$202B (up 9–12%) and operating income to $22.5B–$26.5B; analysts expect about $202B in sales, EPS near $1.96 and AWS growth of roughly 35–38%. It raised its 2026 capital spending plan to about $220B, so free cash flow is expected to stay negative. Amazon also owns a large stake in Anthropic (analysts estimate 15–20%), which filed for its IPO on Oct 26.",
+      [
+        [
+          "Amazon Q3 2026 preview (Pepperstone)",
+          "https://pepperstone.com/en/insights/market-analysis/equities/amazon-q3-2026-earnings-preview"
+        ],
+        [
+          "Big Tech earnings preview (Korea Times)",
+          "https://www.koreatimes.co.kr/world/20261028/big-tech-earnings-to-test-ai-boom-amid-market-turmoil"
+        ],
+        [
+          "Anthropic's IPO and Amazon (Yahoo Finance)",
+          "https://finance.yahoo.com/technology/ai/articles/anthropics-ipo-300-billion-test-014700775.html"
+        ]
+      ]
+    ],
+    "META": [
+      "Oct 21, 2026",
+      "Q3 revenue rose 26% to $64.6B and Q4 is guided to $73B–$76B. But a $9.9B legal charge (a settlement with 52 state attorneys general over teen mental-health claims) cut operating income 37%; without it, EPS would have been $7.40 instead of $3.83. Capital spending of $34.9B was more than the business brought in, so free cash flow was negative $2.1B, and Meta raised the low end of its 2026 capex range (now $135B–$145B). It also plans a non-voting Class C share, handed out as a one-for-one stock dividend in January 2027. The stock fell 7% the next day.",
+      [
+        [
+          "Meta Q3 2026 results (Meta)",
+          "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+        ],
+        [
+          "Meta sinks as free cash flow turns negative (CNBC)",
+          "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+        ]
+      ]
+    ],
+    "NVDA": [
+      "Oct 26, 2026",
+      "A market-driven week: the stock fell 4.4% on Oct 22 in the AI-spending selloff, then rose 2.4% to $216 on Oct 26 as Anthropic's IPO filing lifted chip stocks; it's about 10% below its record close of $239. Nvidia also expanded its security partnership with CrowdStrike. Next earnings: Nov 18.",
+      [
+        [
+          "Why Nvidia rose on Monday (Invezz)",
+          "https://invezz.com/news/2026/10/26/why-nvidia-shares-are-rising-on-monday/"
+        ]
+      ]
+    ],
+    "HOOD": [
+      "Oct 27, 2026",
+      "Record Q3 revenue of $1.42B (up 12%) was a bit below the roughly $1.43B expected; adjusted EPS of $0.60 beat $0.55, while GAAP EPS fell 16% to $0.51. Trading revenue rose 19%, but crypto revenue fell 55%, and prediction-market contracts ($173M) brought in more than crypto ($120M). Gold subscribers hit a record 5.2 million. The stock fell 3.3% the next day.",
+      [
+        [
+          "Robinhood Q3 2026 results (Robinhood)",
+          "https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results"
+        ],
+        [
+          "Q3 results summary (Stock Titan)",
+          "https://www.stocktitan.net/news/HOOD/robinhood-reports-third-quarter-2026-4ko5a7g5094n.html"
+        ]
+      ]
+    ],
+    "SOFI": [
+      "Oct 27, 2026",
+      "Record Q3: adjusted net revenue rose 44% to $1.37B, adjusted EBITDA rose 70% to $470M, net income was $241M ($0.18 a share, up from $0.11) and members grew 35% to 17.1 million. SoFi raised its 2026 outlook to about $5.04B in adjusted net revenue and $0.61 in EPS, and gave a first 2027 outlook of about $6.4B in revenue and $0.90 in EPS. The stock rose about 18% in the two days after the report.",
+      [
+        [
+          "SoFi Q3 2026 results (SEC 8-K)",
+          "https://www.sec.gov/Archives/edgar/data/0001818874/000181887426000065/a2026q3earningsrelease.htm"
+        ]
+      ]
+    ],
+    "UNH": [
+      "Oct 13, 2026",
+      "Q3 beat (adjusted EPS $4.69 vs. $4.15 expected) and 2026 guidance was raised to at least $20.50 per share.",
+      []
+    ],
+    "TSLA": [
+      "Oct 21, 2026",
+      "Q3 revenue was flat at $28.1B, but gross margin improved to 19.6% (from 18.0% a year ago) and adjusted EPS of $0.48 beat the $0.45 estimate. GAAP net income fell 43% to $787M, the operating margin was just 2.6%, energy revenue fell 16%, and free cash flow was $1.5B (vs. $4.0B a year ago). Tesla said its robotaxis have driven nearly 2 million unsupervised miles. The stock fell 3% the day after the report, then jumped 5% on Oct 26.",
+      [
+        [
+          "Tesla Q3 2026 results (Electrek)",
+          "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"
+        ],
+        [
+          "Q3 beat on margins and cash flow (investinglive)",
+          "https://investinglive.com/stocks/tesla-q3-earnings-beat-as-margins-and-cash-flow-surprise-revenue-narrowly-misses/"
+        ]
+      ]
+    ],
+    "NFLX": [
+      "Oct 20, 2026",
+      "Q3 EPS of $0.87 beat the $0.82 estimate and revenue of $12.9B (up 12%) matched, with a 34.6% operating margin. But Q4 revenue guidance of $13.4B came in under the $13.5B expected, and Netflix cut its 2026 ad revenue forecast to about $2.7B from $3B, citing a slower rollout of some ad features. The stock fell 5% the next day and closed at $63.90 on Oct 26, down 32% this year.",
+      [
+        [
+          "Netflix Q3 2026 letter (SEC 8-K)",
+          "https://www.sec.gov/Archives/edgar/data/0001065280/000106528026000290/ex991_q326.htm"
+        ],
+        [
+          "Why Netflix fell despite the beat (Finviz)",
+          "https://finviz.com/news/405568/why-is-netflix-stock-falling-over-5-despite-beating-third-quarter-earnings-estimates"
+        ]
+      ]
+    ],
+    "CRWD": [
+      "Oct 26, 2026",
+      "Rose about 15% from Oct 19 to Oct 26 as cybersecurity stocks rallied on worries about a wave of AI-enabled cyberattacks. CrowdStrike also expanded its partnership with Nvidia to build security in at the chip level, and Mizuho raised its price target to $275. The stock has more than doubled this year.",
+      [
+        [
+          "CrowdStrike and the cyber rally (Benzinga)",
+          "https://www.benzinga.com/trading-ideas/movers/26/10/62589099/crowdstrike-stock-rose-friday-amid-cyber-rally-heres-a-look-at-the-week"
+        ],
+        [
+          "Why CrowdStrike is climbing (Investing.com)",
+          "https://in.investing.com/news/stock-market-news/why-is-crowdstrike-stock-climbing-today-93CH-5648688"
+        ]
+      ]
+    ],
+    "NOW": [
+      "Oct 28, 2026",
+      "Q3 revenue of about $4.11B was roughly as expected, but adjusted EPS of $1.00 missed $1.02, subscription gross margin fell to 80% from 83%, and ServiceNow guided Q4 growth in contracted revenue (cRPO) to about 18.5%, down from 20.5%. That revived fears that AI will slow software sales, and the stock fell about 25% on Oct 29, its worst day in over 14 years. ServiceNow raised its AI contract target to $1.7B, and some analysts called the drop an overreaction.",
+      [
+        [
+          "Why ServiceNow is sinking (Benzinga)",
+          "https://www.benzinga.com/markets/tech/26/10/62687315/why-is-servicenow-stock-sinking-thursday"
+        ],
+        [
+          "Q3 earnings call (Investing.com)",
+          "https://www.investing.com/news/transcripts/earnings-call-transcript-servicenow-q3-2026-revenue-beats-shares-sink-after-hours-93CH-4981127"
+        ]
+      ]
+    ],
+    "KO": [
+      "Oct 27, 2026",
+      "Q3 EPS of $0.91 and revenue of $13.4B beat estimates, and Coca-Cola raised its full-year outlook to about 11% earnings growth. Shares dipped anyway on slowing demand in North America, after a record close on Oct 22; the stock is up about 33% this year.",
+      [
+        [
+          "Coca-Cola pulls back on slowing U.S. demand (Schaeffer's)",
+          "https://www.schaeffersresearch.com/content/news/2026/10/27/coca-cola-stock-pulls-back-amid-slowing-us-demand"
+        ]
+      ]
+    ],
+    "BA": [
+      "Oct 27, 2026",
+      "Q3 revenue of $24.2B came in slightly above forecasts, but the core loss of $0.34 a share was wider than analysts expected (GAAP loss: $0.26). Free cash flow was positive at $0.5B, the order backlog hit a record $745B, and Boeing delivered 161 commercial jets in the quarter.",
+      [
+        [
+          "Boeing Q3 2026 results (SEC 8-K)",
+          "https://www.sec.gov/Archives/edgar/data/0000012927/000162828026067411/a202609sep308kprex991.htm"
+        ],
+        [
+          "Q3 deliveries (Boeing)",
+          "https://boeing.mediaroom.com/2026-10-13-Boeing-Announces-Third-Quarter-Deliveries"
+        ]
+      ]
+    ],
+    "PYPL": [
+      "Oct 27, 2026",
+      "Q3 adjusted EPS rose 8% to $1.45, well above the roughly $1.31 expected, but revenue grew only 2% to $8.6B, a bit short of forecasts. GAAP EPS fell 4% to $1.25.",
+      [
+        [
+          "PayPal Q3 2026 results (SEC 8-K)",
+          "https://www.sec.gov/Archives/edgar/data/0001633917/000163391726000086/pypl3q-26earningsrelease.htm"
+        ]
+      ]
+    ],
+    "NKE": [
+      "Oct 1, 2026",
+      "Fiscal Q1 beat on profit (adjusted EPS $0.48 vs. $0.44 expected), but revenue fell 4% to $11.2B, Greater China sales fell 22%, and Nike now expects fiscal 2027 revenue to fall by a high-single-digit percentage with EPS of $1.15 to $1.35 (Wall Street had about $1.67). It also launched a $2.5B cost-savings plan.",
+      [
+        [
+          "Nike Q1 beat, weak outlook (investinglive)",
+          "https://investinglive.com/stocks/nike-beats-q1-profit-estimates-but-sees-fiscal-2027-revenue-falling-high-single-digits/"
+        ],
+        [
+          "Nike drops on weak outlook (Tradingpedia)",
+          "https://www.tradingpedia.com/2026/10/02/nike-drops-as-weak-outlook-overshadows-earnings-beat/"
+        ]
+      ]
+    ],
+    "JPM": [
+      "Oct 13, 2026",
+      "Q3 profit rose 6% to $15.3B and revenue rose 8% to $50.2B, but adjusted EPS of $5.75 missed estimates near $5.85. Equity trading jumped 49%, buybacks were cut 84% from Q2, and the full-year net interest income outlook was raised to about $106B.",
+      [
+        [
+          "JPMorgan Q3 2026 (WealthBriefing)",
+          "https://www.wealthbriefing.com/html/article.php/net-income-for-third-quarter-2026-rises-at-jp-morgan"
+        ],
+        [
+          "Q3 analysis (money365)",
+          "https://www.money365.market/articles/jp-morgan-q3-2026-earnings-analysis"
+        ]
+      ]
+    ],
+    "TSM": [
+      "Oct 15, 2026",
+      "Q3 revenue of $46.7B (up 41%) beat the top of its own guidance; EPS rose 69% with a 58.7% operating margin. TSMC guided Q4 revenue to $52.3B to $54.3B (about 58% growth) and now expects 2026 revenue to grow about 44%.",
+      [
+        [
+          "TSMC Q3 2026 release (SEC 6-K)",
+          "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+        ]
+      ]
+    ],
+    "ASML": [
+      "Oct 14, 2026",
+      "Record Q3 sales of 11.7B euros with a 57.5% gross margin. ASML guided Q4 sales to 14.2B to 15.2B euros and full-year 2026 to 44B to 45B euros, saying customers raised equipment plans because of AI.",
+      [
+        [
+          "ASML Q3: record quarter (Hargreaves Lansdown)",
+          "https://www.hl.co.uk/shares/share-research/asml-q3-results-record-quarter-capacity-the-constraint"
+        ],
+        [
+          "Record bookings confirm AI upcycle (Morningstar)",
+          "https://www.morningstar.com/stocks/asml-earnings-record-bookings-confirm-ai-upcycle-into-2027"
+        ]
+      ]
+    ],
+    "LLY": [
+      "Oct 29, 2026",
+      "Q3 revenue of $24.4B and adjusted EPS of $7.48 beat estimates on strong demand for its GLP-1 drugs, and Lilly raised its 2026 revenue forecast to $91B–$92B. The stock rose about 6% on Oct 29.",
+      [
+        [
+          "Lilly pops on GLP-1 demand (Yahoo Finance)",
+          "https://finance.yahoo.com/markets/stocks/live/earnings-live-updates-eli-lilly-stock-pops-as-strong-glp-1-drug-demand-lifts-results-servicenow-stock-plunges-114628789.html"
+        ]
+      ]
+    ],
+    "VRT": [
+      "Oct 28, 2026",
+      "Q3 revenue rose 61% to $4.31B and adjusted EPS of $2.21 beat estimates; Vertiv raised its full-year outlook. The stock jumped 16.5% on Oct 28.",
+      [
+        [
+          "Vertiv soars, GE Vernova slips (24/7 Wall St.)",
+          "https://247wallst.com/investing/2026/10/28/ge-vernova-falls-6-despite-beat-raise-and-9b-trench-deal-vertiv-holdings-soars-13-eaton-and-quanta-services-tick-up/"
+        ]
+      ]
+    ],
+    "GEV": [
+      "Oct 28, 2026",
+      "Q3 revenue rose 27% to $12.64B and adjusted EPS of $4.81 beat estimates; the order backlog hit a record $197B and GE Vernova agreed to a $9B deal for Trench Group. The stock dipped about 6% at first but recovered most of the drop.",
+      [
+        [
+          "GE Vernova falls despite beat and raise (24/7 Wall St.)",
+          "https://247wallst.com/investing/2026/10/28/ge-vernova-falls-6-despite-beat-raise-and-9b-trench-deal-vertiv-holdings-soars-13-eaton-and-quanta-services-tick-up/"
+        ]
+      ]
+    ]
   }
 }
