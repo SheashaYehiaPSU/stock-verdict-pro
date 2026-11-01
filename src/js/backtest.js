@@ -255,7 +255,7 @@ function dipTable(t, events, i1) {
 function cautions() {
   return panel("Read before you trust a backtest", null, el("ul", { style: "margin:0;padding-left:18px;display:grid;gap:8px" },
     el("li", null, el("b", null, "Hindsight in the list. "), "These 50 stocks were picked in 2026, partly because they're big and successful today. Testing them on the past flatters every rule, because the companies that failed aren't in the list."),
-    el("li", null, el("b", null, "Why the scores aren't backtested. "), "The 100-point scores and price zones use what was known on Oct 1, 2026. Applying them to 2015 prices would use information nobody had then. The fair way to test them is forward: come back in 6 or 12 months and compare."),
+    el("li", null, el("b", null, "Why the scores aren't backtested. "), "The 100-point scores and price zones use what was known on " + RESEARCH_LABEL + ". Applying them to 2015 prices would use information nobody had then. The fair way to test them is forward: come back in 6 or 12 months and compare."),
     el("li", null, el("b", null, "Real-life costs. "), "Taxes on gains, trading fees and the price moves you'd miss by trading at month end are not included. Rules that trade more lose more to these."),
     el("li", null, el("b", null, "Monthly data. "), "Rules are checked at the end of each month, so moves inside a month are smoothed over."),
     el("li", null, el("b", null, "The past doesn't repeat exactly. "), "A rule that worked from 2010 to 2026 can stop working, especially once many people use it.")));

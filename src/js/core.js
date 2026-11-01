@@ -70,6 +70,7 @@ function dLabel(s, style) { // s: YYYY-MM-DD or YYYY-MM
 }
 function daysUntil(iso) { return Math.round((Date.parse(iso + "T12:00:00") - Date.parse(AS_OF + "T12:00:00")) / 864e5); }
 const AS_OF_LABEL = dLabel(AS_OF);
+const RESEARCH_LABEL = D.researchAsOf || "Oct 1, 2026"; // when the scores were last refreshed
 
 /* ---------- per-viewer storage (conveniences only) ---------- */
 const store = {

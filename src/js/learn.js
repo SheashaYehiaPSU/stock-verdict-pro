@@ -72,7 +72,7 @@ RENDER.learn = function (root) {
     el("thead", null, el("tr", null, el("th", null, "Part"), el("th", { class: "n" }, "Points"), el("th", null, "What it asks"))),
     el("tbody", null, PARTS.map(([nm, mx], i) => el("tr", null, el("td", null, el("b", null, nm)), el("td", { class: "n" }, String(mx)),
       el("td", { class: "small" }, ["Growth, margins, cash flow and debt.", "Is the price fair or cheap for the growth?", "Do strengths and opportunities outweigh weaknesses and threats?", "Are its inputs secure and not dependent on one country or supplier?", "Is demand rising faster than it can serve?", "Is it stronger today than 3–5 years ago?", "Are customer habits moving toward it?", "Is it safe from tariffs, trade fights, lawsuits and regulators?", "Would it hold up if the economy stays weak for years?", "Are analysts and the public positive, with a clear path forward?"][i]))))));
-  root.append(panel("How the 100-point score works", "Scored by research on Oct 1, 2026", parts,
+  root.append(panel("How the 100-point score works", "Last re-scored " + RESEARCH_LABEL, parts,
     what("An average company scores about 60–65. Grades: A is 85+, B 75–84, C 65–74, D 55–64, F below 55. The score is about the business, not the price: a great company can still be too expensive.")));
 
   root.append(panel("How the 8 signals work", "Each check is green (good), yellow (mixed) or red (warning)",
@@ -105,7 +105,7 @@ RENDER.learn = function (root) {
   const rows = [
     ["Stock prices and price history", "Yahoo Finance", "Close on " + AS_OF_LABEL + "; history back to 2005"],
     WEB ? null : ["Live price (button on stock pages)", "Your Flashalpha connector", "On demand; the free plan allows 5 calls a day"],
-    ["Company research, scores, scenarios", "Filings, market data and news (Claude research)", "Oct 1, 2026, with October earnings updates"],
+    ["Company research, scores, scenarios", "Filings, market data and news (Claude research)", "First researched Oct 1, 2026; re-scored " + RESEARCH_LABEL + " after Q3 earnings"],
     ["Earnings-per-share history (P/E history)", "SEC EDGAR filings", "Latest reported quarter, through mid-2026"],
     ["Analyst targets by firm", "StockAnalysis, Investing.com, broker notes", "Oct 15–16, 2026"],
     ["Earnings dates and estimates", "Nasdaq (Zacks)", AS_OF_LABEL],

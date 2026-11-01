@@ -5,6 +5,11 @@ on:
     # 22:30 UTC, Monday to Friday: 6:30 pm in New York in summer, 5:30 pm in winter
     - cron: "30 22 * * 1-5"
   workflow_dispatch:
+    inputs:
+      full_update:
+        description: "Also re-download earnings history and financial statements (normally Mondays only)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write

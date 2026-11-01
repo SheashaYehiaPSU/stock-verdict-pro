@@ -3,8 +3,9 @@
 Usage:
   python3 -I process.py <project dir> <raw dir> [previous site data.json]
 
-<raw dir> holds raw_yahoo/, raw_fred/, raw_nasdaq/, raw_sec/, raw_oi/ and
-raw_yts/ (Yahoo fundamentals for companies EDGAR does not cover).
+<raw dir> holds raw_yahoo/, raw_fred/, raw_nasdaq/, raw_sec/, raw_oi/,
+raw_yts/ (Yahoo fundamentals for companies EDGAR does not cover) and
+raw_facts/ (SEC company facts, used to roll the research's financials forward).
 Research comes from data/presets.json, dated notes from data/notes.json.
 When a source fails to download, its last good values are reused from the
 previous site data, if given. Writes data/site_data.json, and exits with an
@@ -20,6 +21,9 @@ import re
 import statistics as st
 import sys
 from zoneinfo import ZoneInfo
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from financials import update_fin  # noqa: E402
 
 RISK_PREMIUM = 4.0  # equity risk premium (%) used for DCF discount rates
 
@@ -775,9 +779,29 @@ def main(site_dir, raw, prev_path=None):
         fc = fc or old.get("fc")
         summ = summ or old.get("nq")
 
-        # ---------- DCF defaults ----------
+        # ---------- financials: the research's numbers, rolled forward to the latest SEC filing ----------
         f = c["fin"]
+        facts_path = os.path.join(raw, "raw_facts", t + ".json")
+        if os.path.exists(facts_path):
+            try:
+                f, _ = update_fin(f, json.load(open(facts_path)))
+            except Exception as e:  # a malformed download should not stop the build
+                print("financials", t, e)
+        old_fin = old.get("fin") or {}
+        if old_fin.get("asOf") and (not f.get("asOf") or old_fin["asOf"] > f["asOf"]):
+            f = old_fin  # filings are downloaded weekly; keep the newer figures from earlier runs
+
+        # ---------- valuation: forward EPS moves with analysts' estimate revisions ----------
+        # ntmBase is Nasdaq's next-12-month EPS estimate on the research date. Nasdaq's figure
+        # is not always on the research's basis (GAAP vs. adjusted), so only its change is used.
         v = c["val"]
+        base = v.get("ntmBase")
+        if fc and fc.get("ntm") and base and v.get("value") and 0.5 <= fc["ntm"] / base <= 2:
+            v = dict(v, value=round(v["value"] * fc["ntm"] / base, 2), researchValue=v["value"])
+        if summ and summ.get("target1y") and summ["target1y"] > 0:
+            v = dict(v, consensus=summ["target1y"])  # Nasdaq's daily average analyst target
+
+        # ---------- DCF defaults ----------
         shares = c.get("shares")
         if t in ADR_RATIO and shares:
             shares = shares / ADR_RATIO[t]  # count US-listed ADRs, which is what the price refers to
@@ -989,6 +1013,9 @@ def main(site_dir, raw, prev_path=None):
         "stocks": stocks, "market": market, "macro": macro, "mood": mood,
         "fedEvents": {"events": events, "rows": ev_rows},
         "notes": dict(notes.get("economy", {}), asOf=notes.get("asOf")),
+        # the most recent research date across the companies (scores are refreshed in batches)
+        "researchAsOf": max((c.get("priceAsOf") for c in PRESETS if c.get("priceAsOf")),
+                            key=lambda d: dt.datetime.strptime(d.replace(",", ""), "%b %d %Y"), default=None),
     }
 
     # refuse to publish a half-built site

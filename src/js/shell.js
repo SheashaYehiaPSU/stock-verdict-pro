@@ -44,7 +44,7 @@ function buildShell() {
   const main = el("main", { id: "main" }, el("div", { class: "wrap gutter", id: "view" }));
   const foot = el("footer", { class: "site" }, el("div", { class: "wrap gutter" },
     el("p", null, el("b", null, "Not financial advice. "), "This site organizes public data and a scoring model so you can make your own decisions. Scores, fair values and signals are estimates that can be wrong; no price is a guaranteed buy."),
-    el("p", null, (WEB ? "Data updates every weekday after the US market closes; this version uses the close on " : "Prices: close on ") + AS_OF_LABEL + ". Sources: Yahoo Finance (prices), SEC EDGAR (earnings history), SEC Form 4 via OpenInsider (insider trades), Nasdaq (earnings dates, estimates, fund ownership, analyst targets), FRED (economy). Company research and scores: Oct 1, 2026. ", link("learn", null, "How it works")),
+    el("p", null, (WEB ? "Data updates every weekday after the US market closes; this version uses the close on " : "Prices: close on ") + AS_OF_LABEL + ". Sources: Yahoo Finance (prices), SEC EDGAR (earnings history), SEC Form 4 via OpenInsider (insider trades), Nasdaq (earnings dates, estimates, fund ownership, analyst targets), FRED (economy). Company research and scores: " + RESEARCH_LABEL + ". ", link("learn", null, "How it works")),
     WEB ? el("p", null, "Stocks you mark as yours are saved only in this browser. This site doesn't collect or store anything about you.") : null));
   document.body.append(header, tape, main, foot);
   wireSearch(input, sug);

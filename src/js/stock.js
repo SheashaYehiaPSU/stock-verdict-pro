@@ -366,7 +366,7 @@ function modelBlock(s, refreshers) {
     grid.append(el("label", { class: "field", for: "fv-" + key }, lbl, inp));
   });
   const reset = el("button", { class: "btn ghost", type: "button", onclick: () => { const o = ovr(s.t); delete o.val; saveOvr(); fields.forEach(([k]) => { const c = valInputs(s)[k]; inputs[k].value = isNum(c) ? String(c) : (k === "consensus" && isNum(consensusTarget(s)) ? String(consensusTarget(s)) : ""); }); refreshers.forEach(f => f(curPrice(s))); } }, "Reset to research inputs");
-  box.append(ladderBox, el("details", { class: "data" }, el("summary", null, "See and edit the model's inputs"), el("div", { class: "stack", style: "margin-top:10px" }, grid, formula, el("p", { class: "note" }, v0.note || ""), el("div", null, reset))));
+  box.append(ladderBox, el("details", { class: "data" }, el("summary", null, "See and edit the model's inputs"), el("div", { class: "stack", style: "margin-top:10px" }, grid, formula, el("p", { class: "note" }, (isNum(v0.researchValue) ? "The " + v0.metricLabel.split(" (")[0] + " moves with analysts' estimate changes every weekday (the research used " + money(v0.researchValue) + "). " : "") + (v0.note || "")), el("div", null, reset))));
   refreshers.push(price => {
     const k = fairModel(s, price);
     ladderBox.replaceChildren(ladder(s, k, price));
@@ -431,7 +431,7 @@ function businessSection(s) {
   const sw = s.swot || {};
   const q = (t, a) => el("div", null, el("div", { class: "eyebrow" }, t), el("ul", null, (a || []).map(x => el("li", null, x))));
   sec.append(el("div", { class: "grid2" }, rows, el("div", { class: "stack" }, el("h3", null, "Strengths, weaknesses, opportunities, threats"), el("div", { class: "swot" }, q("Strengths", sw.s), q("Weaknesses", sw.w), q("Opportunities", sw.o), q("Threats", sw.t)))),
-    el("p", { class: "note" }, "Scored on Oct 1, 2026 from filings, market data and news. SWOT is worth 15 points, P/E 5, every other part 10. An average company scores about 60–65."));
+    el("p", { class: "note" }, "Scored on " + (s.researchDate || RESEARCH_LABEL) + " from filings, market data and news. SWOT is worth 15 points, P/E 5, every other part 10. An average company scores about 60–65."));
   return sec;
 }
 
@@ -439,15 +439,19 @@ function businessSection(s) {
 function financialsSection(s, refreshers) {
   const sec = el("section", { class: "panel anchor", id: "sec-fin" }, el("header", null, el("h2", null, "Financials"), el("span", { class: "note" }, (s.fin && s.fin.period) || "")));
   const tb = el("div", { class: "tablewrap" });
-  sec.append(tb, el("p", { class: "note" }, "US$; B = billion, T = trillion. From the company's latest reports as of Oct 1, 2026."));
+  const older = (s.fin && s.fin.older) || [];
+  sec.append(tb, el("p", { class: "note" }, "US$; B = billion, T = trillion. " + (s.fin && s.fin.asOf
+    ? "Rolled forward to the company's latest 10-Q or 10-K filing (" + dLabel(s.fin.asOf) + ")." + (older.length ? " Lines marked * are still from the research's earlier period, because the filing reports them differently." : "")
+    : "From the company's latest reports as of " + (s.researchDate || "Oct 1, 2026") + "; this updates when its next 10-Q or 10-K is filed.")));
   refreshers.push(p => {
     const f = s.fin || {};
+    const mark = (lbl, k) => older.includes(k) ? lbl + " *" : lbl;
     const nd = isNum(f.debt) && isNum(f.cash) ? f.debt - f.cash : null;
     const rows = [["Income"], ["Revenue", big(f.revenue)], isNum(f.qGrowth) ? ["Revenue growth (latest quarter vs. a year ago)", pct(f.qGrowth)] : ["Revenue growth", pct(f.revGrowth)],
-      ["Operating income", big(f.opIncome)], ["Operating margin", pct(f.opMargin)], ["Net income", big(f.netIncome)], ["Earnings per share (EPS)", money(f.eps)],
-      ["Cash"], ["Free cash flow", big(f.fcf)], ["Dividend per share (yearly)", isNum(f.dividend) ? (f.dividend > 0 ? money(f.dividend) : "None") : "—"],
-      ["Balance sheet"], ["Cash and investments", big(f.cash)], ["Total debt", big(f.debt)], ["Net debt", isNum(nd) ? (nd < 0 ? "Net cash " + big(-nd) : big(nd)) : "—"],
-      ["Shareholders' equity", big(f.equity)], ["Debt to equity", isNum(f.debt) && f.equity > 0 ? (f.debt / f.equity).toFixed(2) + "×" : (f.equity <= 0 ? "n/m (negative equity)" : "—")]];
+      [mark("Operating income", "opIncome"), big(f.opIncome)], [mark("Operating margin", "opIncome"), pct(f.opMargin)], [mark("Net income", "netIncome"), big(f.netIncome)], [mark("Earnings per share (EPS)", "eps"), money(f.eps)],
+      ["Cash"], [mark("Free cash flow", "fcf"), big(f.fcf)], ["Dividend per share (yearly)", isNum(f.dividend) ? (f.dividend > 0 ? money(f.dividend) : "None") : "—"],
+      ["Balance sheet"], [mark("Cash and investments", "cash"), big(f.cash)], [mark("Total debt", "debt"), big(f.debt)], ["Net debt", isNum(nd) ? (nd < 0 ? "Net cash " + big(-nd) : big(nd)) : "—"],
+      [mark("Shareholders' equity", "equity"), big(f.equity)], ["Debt to equity", isNum(f.debt) && f.equity > 0 ? (f.debt / f.equity).toFixed(2) + "×" : (f.equity <= 0 ? "n/m (negative equity)" : "—")]];
     tb.replaceChildren(el("table", null, el("tbody", null, rows.map(r => r.length === 1 ? el("tr", { class: "group" }, el("td", { colspan: 2 }, r[0])) : el("tr", null, el("td", null, r[0]), el("td", { class: "n" }, r[1]))))));
   });
   return sec;

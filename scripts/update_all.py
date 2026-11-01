@@ -7,9 +7,9 @@ runs out of time is reported but does not stop the others; process.py then
 reuses the last published values for anything missing, and refuses to publish
 if prices or the economy are missing.
 
-Earnings history (SEC EDGAR and its Yahoo fallback) only changes when companies
-report, so it is downloaded on Mondays, or whenever there is no earlier data to
-reuse (set FULL_UPDATE=1 to force it).
+Earnings history and financial statements (SEC EDGAR, with a Yahoo fallback)
+only change when companies report, so they are downloaded on Mondays, or
+whenever there is no earlier data to reuse (set FULL_UPDATE=1 to force it).
 """
 import datetime as dt
 import os
@@ -29,12 +29,13 @@ STEPS = [
     ("Insider trades (OpenInsider)", "fetch_openinsider.py", [PRESETS, "raw_oi"], 8, False),
     ("Earnings history (SEC EDGAR)", "fetch_sec.py", [PRESETS, "raw_sec"], 12, True),
     ("Earnings history fallback (Yahoo Finance)", "fetch_yts.py", [PRESETS, "raw_yts"], 5, True),
+    ("Financial statements (SEC EDGAR company facts)", "fetch_financials.py", [PRESETS, "raw_facts"], 10, True),
 ]
 
 
 def main(raw, prev=None):
     os.makedirs(raw, exist_ok=True)
-    full = (os.environ.get("FULL_UPDATE") == "1" or dt.datetime.utcnow().weekday() == 0
+    full = (os.environ.get("FULL_UPDATE") == "1" or dt.datetime.now(dt.timezone.utc).weekday() == 0
             or not prev or not os.path.exists(prev))
     failed = []
     for label, script, args, minutes, weekly in STEPS:

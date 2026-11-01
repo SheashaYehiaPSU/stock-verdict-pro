@@ -1,7 +1,7 @@
 {
-  "asOf": "2026-10-29",
+  "asOf": "2026-11-01",
   "economy": {
-    "summary": "Busy week. The Fed held rates on Oct 28, but two officials voted for another hike. On Oct 29, Q3 GDP grew a stronger-than-expected 3.4% while September PCE inflation rose to 3.6%, so the economy is growing but prices are still running hot. Big tech earnings split: Microsoft beat, but Alphabet had its worst day since 2004 (about −13%) on a profit miss and heavy AI spending, and ServiceNow fell about 25% on slowing growth. Amazon reports Oct 29 after the close and AMD on Nov 3. The backdrop is unchanged: a war-driven oil shock keeps inflation high and the Fed leaning toward hikes, which is hard on stocks priced for fast growth.",
+    "summary": "After a big earnings week: the Fed held rates on Oct 28 (two officials wanted a hike), Q3 GDP grew a strong 3.4%, and September PCE inflation rose to 3.6%. Results split the AI trade: Microsoft and Amazon's cloud businesses sped up, but Alphabet (-13%), ServiceNow (-27%) and Intel (-29%) had some of their worst days in years. Next up: Apple and Palantir (Nov 2), AMD and Shopify (Nov 3), Uber, Arm and McDonald's (Nov 4), and the October jobs report on Nov 6. The backdrop is unchanged: a war-driven oil shock keeps inflation high and the Fed leaning toward hikes.",
     "fed": "The Fed raised rates in September, then held at 3.75–4.00% on Oct 28 in a 10–2 vote; the two dissenters wanted another hike. It gave no clear signal about December.",
     "fedNext": "The next meeting is Dec 8–9. On Oct 28 the Fed held at 3.75–4.00% (Lisa Cook and Beth Hammack voted for a hike) and said it wants more information before acting again. Since then, Q3 GDP grew 3.4% and September PCE inflation rose to 3.6% (core 3.1%), both on Oct 29. Markets price about one more quarter-point hike in 2026. Chair Warsh also said the Fed will hold fewer meetings starting in 2027.",
     "oil": "The US–Iran war has largely shut the Strait of Hormuz since late February. Brent crude settled near $117 a barrel on Oct 23, a six-month high, as traders bet the U.S. could resume strikes on Iran; U.S. crude (WTI) was about $101 on Oct 26.",
@@ -47,7 +47,7 @@
   "updates": {
     "GOOGL": [
       "Oct 28, 2026",
-      "Q3 revenue rose 25% to about $127.6B, slightly below estimates, and Google Cloud grew 103% to $30.7B. But adjusted EPS of $2.12 fell far short of the roughly $3.00 expected, free cash flow was negative $9.1B, Alphabet kept its 2026 capex plan at $195B–$205B, and Other Bets lost $20.4B. The stock fell about 13% on Oct 29, its worst day since going public in 2004, wiping out roughly $500B of market value.",
+      "Q3 revenue rose 25% to about $127.6B, slightly below estimates, and Google Cloud grew 103% to $30.7B. But adjusted EPS of $2.12 fell far short of the roughly $3.00 expected, free cash flow was negative $9.1B, Alphabet kept its 2026 capex plan at $195B–$205B, and Other Bets lost $20.4B. The stock fell 12.6% on Oct 29, its worst day since going public in 2004, wiping out roughly $500B of market value.",
       [
         [
           "Alphabet heads for its biggest drop in market value (Yahoo Finance)",
@@ -75,19 +75,15 @@
     ],
     "AMZN": [
       "Oct 29, 2026",
-      "Reports Q3 today, Oct 29, after the close. Amazon guided sales to $197B–$202B (up 9–12%) and operating income to $22.5B–$26.5B; analysts expect about $202B in sales, EPS near $1.96 and AWS growth of roughly 35–38%. It raised its 2026 capital spending plan to about $220B, so free cash flow is expected to stay negative. Amazon also owns a large stake in Anthropic (analysts estimate 15–20%), which filed for its IPO on Oct 26.",
+      "Q3 sales rose 12% to $201.9B and operating income hit $28.1B, a record 13.9% margin. AWS grew 39% to $46.0B, its fastest in nearly five years, with a $578B backlog, and Amazon said AWS can grow over 40% in both 2027 and 2028. But EPS of $1.89 came in under the roughly $1.97 expected, and its spending plans worried investors; the stock fell after hours and closed down 1.4% on Oct 30.",
       [
         [
-          "Amazon Q3 2026 preview (Pepperstone)",
-          "https://pepperstone.com/en/insights/market-analysis/equities/amazon-q3-2026-earnings-preview"
+          "Amazon Q3 2026 results (Amazon)",
+          "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
         ],
         [
-          "Big Tech earnings preview (Korea Times)",
-          "https://www.koreatimes.co.kr/world/20261028/big-tech-earnings-to-test-ai-boom-amid-market-turmoil"
-        ],
-        [
-          "Anthropic's IPO and Amazon (Yahoo Finance)",
-          "https://finance.yahoo.com/technology/ai/articles/anthropics-ipo-300-billion-test-014700775.html"
+          "AWS posts 39% growth (CNBC)",
+          "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html"
         ]
       ]
     ],
@@ -188,7 +184,7 @@
     ],
     "NOW": [
       "Oct 28, 2026",
-      "Q3 revenue of about $4.11B was roughly as expected, but adjusted EPS of $1.00 missed $1.02, subscription gross margin fell to 80% from 83%, and ServiceNow guided Q4 growth in contracted revenue (cRPO) to about 18.5%, down from 20.5%. That revived fears that AI will slow software sales, and the stock fell about 25% on Oct 29, its worst day in over 14 years. ServiceNow raised its AI contract target to $1.7B, and some analysts called the drop an overreaction.",
+      "Q3 revenue of about $4.11B was roughly as expected, but adjusted EPS of $1.00 missed $1.02, subscription gross margin fell to 80% from 83%, and ServiceNow guided Q4 growth in contracted revenue (cRPO) to about 18.5%, down from 20.5%. That revived fears that AI will slow software sales, and the stock fell 26.9% on Oct 29, its worst day in over 14 years. ServiceNow raised its AI contract target to $1.7B, and some analysts called the drop an overreaction.",
       [
         [
           "Why ServiceNow is sinking (Benzinga)",
@@ -313,6 +309,54 @@
         [
           "GE Vernova falls despite beat and raise (24/7 Wall St.)",
           "https://247wallst.com/investing/2026/10/28/ge-vernova-falls-6-despite-beat-raise-and-9b-trench-deal-vertiv-holdings-soars-13-eaton-and-quanta-services-tick-up/"
+        ]
+      ]
+    ],
+    "INTC": [
+      "Oct 29, 2026",
+      "Q3 revenue rose 21% to $16.5B and adjusted EPS of $0.52 beat estimates, but Intel guided Q4 revenue to $15.0B–$16.0B, flagged a roughly $300M hit from a plant shutdown in Israel, and said the PC slowdown will likely last at least through the first half of 2027. The stock fell 28.6% on Oct 30.",
+      [
+        [
+          "Intel Q3 2026 results (SEC 8-K)",
+          "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
+        ],
+        [
+          "Intel beats, but stock sinks (Investing.com)",
+          "https://www.investing.com/news/transcripts/earnings-call-transcript-intel-beats-q3-2026-estimates-but-stock-sinks-93CH-4985498"
+        ]
+      ]
+    ],
+    "COIN": [
+      "Oct 29, 2026",
+      "Q3 revenue fell about 35% to $1.20B, below the $1.23B expected, as crypto trading slowed; net income still rose 66% to $719M ($2.51 a share) thanks to gains on the crypto Coinbase holds. The stock fell 10.6% on Oct 30.",
+      [
+        [
+          "Coinbase Q3 2026 (CNBC)",
+          "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html"
+        ]
+      ]
+    ],
+    "V": [
+      "Oct 27, 2026",
+      "Fiscal Q4 net revenue rose 13% to $12.1B and adjusted EPS was $3.48; full-year revenue grew 15% to $45.9B. Visa raised its quarterly dividend 16% to $0.78. The stock was little changed the next day and rose 2.5% on Oct 29.",
+      [
+        [
+          "Visa fiscal Q4 2026 results (SEC 8-K)",
+          "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000126/q42026earningsrelease.htm"
+        ]
+      ]
+    ],
+    "XOM": [
+      "Oct 30, 2026",
+      "Q3 adjusted EPS of $4.23 beat the $4.12 estimate and operating cash flow was $25.7B. Exxon announced $20B of buybacks for 2027 and a 4% dividend raise, its 44th straight yearly increase; strong refining offset lower oil-production earnings. The stock rose 2.2% on Oct 30.",
+      [
+        [
+          "Exxon Q3 2026 results (BOE Report)",
+          "https://boereport.com/2026/10/30/exxonmobil-announces-third-quarter-2026-results/"
+        ],
+        [
+          "Q3 results and call (MarketBeat)",
+          "https://www.marketbeat.com/earnings/reports/2026-10-30-exxon-mobil-co-stock/"
         ]
       ]
     ]
