@@ -25,6 +25,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       SEC_CONTACT: ${{ vars.SEC_CONTACT }}
+      FULL_UPDATE: ${{ inputs.full_update && '1' || '' }}
     steps:
       - name: Get the code
         run: git clone --depth 1 "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" repo
