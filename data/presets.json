@@ -53,8 +53,8 @@
    ],
    "sector": "Internet search, ads and cloud",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 279.84,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 295.77,
    "high52": 402.62,
    "low52": 273.5,
    "shares": 12230,
@@ -203,8 +203,8 @@
    ],
    "sector": "Sportswear and footwear",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 38.67,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 37.99,
    "high52": 67.78,
    "low52": 33.87,
    "shares": 1483,
@@ -240,7 +240,7 @@
     ],
     [
      3,
-     "About 21x forward earnings at the Oct 30 price."
+     "About 21x forward earnings at the Nov 13 price."
     ],
     [
      8,
@@ -357,12 +357,12 @@
    ],
    "sector": "Fast food restaurants (franchisor)",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 258.12,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 271.97,
    "high52": 341.06,
    "low52": 230.88,
    "shares": 707.6,
-   "summary": "Still a cash machine, but US traffic is slipping and investors disliked the cost of its new turnaround plan.",
+   "summary": "Q3 profit beat, but US same-store sales slipped 0.2% on weak traffic, revenue missed and McDonald's trimmed its 2026 opening target, with no Q4 improvement expected.",
    "fin": {
     "period": "TTM to Jun 30, 2026",
     "revenue": 27702,
@@ -394,7 +394,7 @@
     ],
     [
      4,
-     "About 20x forward earnings at the Oct 30 price."
+     "About 21x forward earnings at the Nov 13 price."
     ],
     [
      11,
@@ -413,8 +413,8 @@
      "Profits are higher than in 2022, yet the stock is back at 2022 prices; restaurant growth goal pushed to 2028."
     ],
     [
-     6,
-     "Low-income diners are cutting visits; loyalty members still grew 13% to nearly 220M."
+     5,
+     "US traffic is falling as low-income diners pull back, and management expects no improvement in Q4; loyalty members still grew to nearly 220M."
     ],
     [
      7,
@@ -465,8 +465,8 @@
    },
    "catalysts": [
     [
-     "Nov 4, 2026",
-     "Next quarterly earnings"
+     "Early Feb 2027",
+     "Q4 2026 earnings"
     ],
     [
      "2027 - 2030",
@@ -503,12 +503,12 @@
    ],
    "sector": "Ride-hailing and delivery",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 65.25,
-   "high52": 99.72,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 69.69,
+   "high52": 92.57,
    "low52": 65.25,
    "shares": 2040,
-   "summary": "The business has never been healthier, but the stock is priced as if robotaxis will eat it.",
+   "summary": "Gross bookings grew 20% in Q3, but a GAAP profit miss from investment write-downs and a slightly soft Q4 profit guide kept the stock under pressure.",
    "fin": {
     "period": "TTM to Jun 30, 2026",
     "revenue": 55227,
@@ -570,8 +570,8 @@
      "Rides and delivery get trimmed in recessions; commuting and groceries hold up better."
     ],
     [
-     7,
-     "42 of 51 analysts rate Buy; the CEO bought $10M of stock. Retail traders are spooked by every Tesla and Waymo headline."
+     6,
+     "Most analysts still rate Buy, but the Q4 EBITDA guide came in a bit light and robotaxi headlines keep weighing on the stock."
     ]
    ],
    "swot": {
@@ -612,12 +612,8 @@
    },
    "catalysts": [
     [
-     "Nov 4, 2026",
-     "Next quarterly earnings"
-    ],
-    [
-     "Early Nov 2026",
-     "Q3 2026 earnings (date not yet confirmed)"
+     "Early Feb 2027",
+     "Q4 2026 earnings"
     ],
     [
      "2028",
@@ -655,12 +651,12 @@
    ],
    "sector": "Power generation and retail electricity",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 138.37,
-   "high52": 193.04,
-   "low52": 134.71,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 133.01,
+   "high52": 180.18,
+   "low52": 112.89,
    "shares": 335.6,
-   "summary": "Earnings are rising fast on AI power demand, but the stock fell about 31% in a year because Texas power prices went soft.",
+   "summary": "Vistra beat Q3 estimates, raised 2026 guidance, set 2027 EBITDA guidance of $7.7-8.5B and added $1.5B of buybacks.",
    "fin": {
     "period": "TTM to Jun 30, 2026",
     "revenue": 19212,
@@ -686,8 +682,8 @@
    },
    "parts": [
     [
-     8,
-     "Adjusted EBITDA up 30%, now investment grade, buybacks cut the share count about 30% since 2021; debt is high."
+     9,
+     "Investment grade, about $4.5B of free cash flow guided for 2026 and $4.3-5.1B for 2027, plus $2.5B of buyback room."
     ],
     [
      4,
@@ -722,8 +718,8 @@
      "People still pay the power bill and output is hedged, but prices fall in recessions."
     ],
     [
-     6,
-     "19 of 21 analysts rate Buy, but investors have soured on AI-power stocks; the CEO sold shares in September."
+     7,
+     "19 of 21 analysts rate Buy; the 2027 guide and new buyback eased worries about AI-power stocks."
     ]
    ],
    "swot": {
@@ -762,12 +758,8 @@
    },
    "catalysts": [
     [
-     "Nov 6, 2026",
-     "Next quarterly earnings"
-    ],
-    [
-     "Early Nov 2026",
-     "Q3 2026 earnings (date not yet confirmed)"
+     "Late Feb 2027",
+     "Q4 2026 earnings"
     ],
     [
      "Late 2026",
@@ -808,12 +800,12 @@
    "sector": "AI chips and data-center systems",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 204.64,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 162.85,
    "high52": 239.24,
-   "low52": 165.17,
+   "low52": 162.85,
    "shares": 24150,
-   "summary": "The AI chip leader is still growing over 100% a year, and the stock trades at only about 17.5x next year's expected earnings.",
+   "summary": "Jensen Huang resigned as CEO on Nov 12 after Nvidia opened an investigation into reports he was targeted by a foreign intelligence effort; CFO Colette Kress is interim CEO, and the stock fell about 13% in a week ahead of Nov 17 earnings.",
    "fin": {
     "period": "TTM, latest quarter = fiscal Q2 2027 (May-Jul 2026)",
     "revenue": 302970,
@@ -845,12 +837,12 @@
      "65% operating margin and $127B of free cash flow in a year."
     ],
     [
-     4,
-     "About 17x forward earnings at the Oct 30 price."
+     5,
+     "About 13x forward earnings at the Nov 13 price."
     ],
     [
-     13,
-     "Dominant AI chips plus software (CUDA) and networking; threats are customer-built chips and China bans."
+     11,
+     "Dominant AI chips plus software (CUDA) and networking, but now without its founder-CEO: Jensen Huang resigned Nov 12, Colette Kress is interim CEO and the board is searching (Huang is reportedly weighing a comeback)."
     ],
     [
      5,
@@ -869,16 +861,16 @@
      "Every big cloud buys Nvidia, though Google, Amazon and Meta push their own chips."
     ],
     [
-     4,
-     "US export limits keep most of China off-limits."
+     3,
+     "US export limits keep most of China off-limits, and Congress has summoned Huang over reports he was the target of a foreign intelligence effort."
     ],
     [
      6,
      "AI budgets have held up, but chip spending can drop fast in a downturn."
     ],
     [
-     9,
-     "Strong Buy consensus with a $328 average target."
+     8,
+     "Still a Strong Buy consensus, but the CEO exit makes the Nov 17 report a confidence test; options price about a 10% move."
     ]
    ],
    "swot": {
@@ -916,11 +908,11 @@
    "catalysts": [
     [
      "Nov 17, 2026",
-     "Next quarterly earnings"
+     "Fiscal Q3 2027 earnings, the first under interim CEO Colette Kress"
     ],
     [
-     "Nov 18, 2026",
-     "Fiscal Q3 2027 earnings"
+     "2027",
+     "Board names a permanent CEO"
     ]
    ],
    "sentiment": "Analysts are almost unanimously bullish. Online, the debate is whether AI spending peaks in 2027.",
@@ -949,9 +941,9 @@
    "sector": "Cloud, software and AI",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 521.91,
-   "high52": 543.45,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 523.88,
+   "high52": 555.8,
    "low52": 352.83,
    "shares": 7430,
    "summary": "Azure grew 48% in Q3, faster than Microsoft forecast; the worry is still how much it spends on AI data centers.",
@@ -987,7 +979,7 @@
     ],
     [
      3,
-     "About 26x forward earnings at the Oct 30 price."
+     "About 26x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -1081,12 +1073,12 @@
    "sector": "Consumer devices and services",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 344.63,
-   "high52": 348.91,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 356.27,
+   "high52": 356.27,
    "low52": 246.63,
    "shares": 14590,
-   "summary": "Apple hit record highs in September on the iPhone 18 cycle, the iPhone Duo and new Siri AI, but the stock now costs about 36x next year's earnings.",
+   "summary": "Apple had a record September quarter (revenue +12% to $114.5B, iPhone +17%) and guided to its biggest quarter ever, but the iPhone Duo is supply-limited into 2027 and margins face memory-chip inflation.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 466820,
@@ -1119,7 +1111,7 @@
     ],
     [
      1,
-     "About 38x forward earnings at the Oct 30 price."
+     "About 39x forward earnings at the Nov 13 price."
     ],
     [
      12,
@@ -1134,8 +1126,8 @@
      "New iPhone cycle is strong, helped by the Duo and Siri AI."
     ],
     [
-     7,
-     "Steady growth, mostly from services."
+     8,
+     "Revenue growth picked up to 12% with iPhone +17%; Apple guides 7-10% growth for the December quarter."
     ],
     [
      8,
@@ -1151,7 +1143,7 @@
     ],
     [
      8,
-     "Buy consensus, but the $328 average target is below the price."
+     "Buy consensus; results beat, but the stock slipped on a 45-46% gross margin guide and trades near the average target."
     ]
    ],
    "swot": {
@@ -1185,8 +1177,12 @@
    },
    "catalysts": [
     [
-     "Nov 2, 2026",
-     "Next quarterly earnings"
+     "Late Jan 2027",
+     "Fiscal Q1 2027 earnings (holiday quarter)"
+    ],
+    [
+     "2027",
+     "iPhone Duo supply catches up with orders"
     ]
    ],
    "sentiment": "Very positive after the launch; the stock is above the analysts' own average target.",
@@ -1212,8 +1208,8 @@
    "sector": "E-commerce, cloud (AWS) and ads",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 240.35,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 266.66,
    "high52": 284.02,
    "low52": 198.79,
    "shares": 10790,
@@ -1250,7 +1246,7 @@
     ],
     [
      3,
-     "About 26x forward earnings at the Oct 30 price."
+     "About 28x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -1341,8 +1337,8 @@
    "sector": "Social media and digital ads",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 614.99,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 641.69,
    "high52": 777.59,
    "low52": 525.72,
    "shares": 2550,
@@ -1379,7 +1375,7 @@
     ],
     [
      4,
-     "About 19x forward earnings at the Oct 30 price."
+     "About 20x forward earnings at the Nov 13 price."
     ],
     [
      12,
@@ -1470,8 +1466,8 @@
    "sector": "Electric vehicles, robotaxis and energy",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 399.81,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 390.22,
    "high52": 489.88,
    "low52": 298.32,
    "shares": 3950,
@@ -1508,7 +1504,7 @@
     ],
     [
      0,
-     "About 213x forward earnings at the Oct 30 price."
+     "About 208x forward earnings at the Nov 13 price."
     ],
     [
      9,
@@ -1599,10 +1595,10 @@
    "sector": "Custom AI chips, networking and software",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 326.08,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 347.01,
    "high52": 481.57,
-   "low52": 293.41,
+   "low52": 291.53,
    "shares": 4770,
    "summary": "AI chip revenue tripled to $16.7B last quarter, yet the stock barely moved and trades near 20x forward earnings.",
    "fin": {
@@ -1637,7 +1633,7 @@
     ],
     [
      4,
-     "About 19x forward earnings at the Oct 30 price."
+     "About 20x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -1738,12 +1734,12 @@
    "sector": "CPUs and AI GPUs",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 504.8,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 534.06,
    "high52": 649.42,
    "low52": 190.95,
    "shares": 1630,
-   "summary": "AMD is up about 280% in a year on AI chip deals including OpenAI, and now trades around 55x forward earnings.",
+   "summary": "Q3 revenue jumped 45% to a record $13.4B as data center sales nearly doubled to $8.5B, and AMD guided Q4 to about $17B, roughly 66% growth.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 41310,
@@ -1776,7 +1772,7 @@
     ],
     [
      2,
-     "About 45x forward earnings at the Oct 30 price."
+     "About 48x forward earnings at the Nov 13 price."
     ],
     [
      12,
@@ -1791,8 +1787,8 @@
      "AI GPU orders from OpenAI and others."
     ],
     [
-     9,
-     "Much larger and more relevant in data centers."
+     10,
+     "Revenue growth sped up to 45% in Q3 and the Q4 guide implies about 66%; data center is now two-thirds of sales."
     ],
     [
      8,
@@ -1807,8 +1803,8 @@
      "PC and gaming chips are cyclical."
     ],
     [
-     8,
-     "Strong Buy consensus, but the $619 target equals today's price."
+     9,
+     "Beat-and-raise quarter on Nov 3; analysts lifted estimates after the $17B Q4 guide."
     ]
    ],
    "swot": {
@@ -1842,8 +1838,8 @@
    },
    "catalysts": [
     [
-     "Nov 3, 2026",
-     "Q3 2026 earnings"
+     "Early Feb 2027",
+     "Q4 2026 earnings"
     ]
    ],
    "sentiment": "Momentum investors love it; valuation-focused investors think much of the good news is priced in.",
@@ -1873,8 +1869,8 @@
    "sector": "Chip manufacturing (foundry)",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 406.13,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 398.73,
    "high52": 485.8,
    "low52": 275.06,
    "shares": 25930,
@@ -1910,7 +1906,7 @@
     ],
     [
      4,
-     "About 20x forward earnings."
+     "About 17x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -2001,9 +1997,9 @@
    "sector": "Memory chips (DRAM, HBM, NAND)",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 884.74,
-   "high52": 1213.6,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 778.31,
+   "high52": 1213.56,
    "low52": 201.37,
    "shares": 1130,
    "summary": "A historic memory shortage pushed Micron up about 545% in a year; it trades at only 6x forward earnings because investors expect the cycle to turn.",
@@ -2039,7 +2035,7 @@
     ],
     [
      5,
-     "About 5x forward earnings at the Oct 30 price."
+     "About 4x forward earnings at the Nov 13 price."
     ],
     [
      11,
@@ -2139,9 +2135,9 @@
    "sector": "Database software and AI cloud",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 130.67,
-   "high52": 262.61,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 125.35,
+   "high52": 248.15,
    "low52": 114.99,
    "shares": 3030,
    "summary": "Oracle has fallen about 52% in a year as investors worry about its heavy debt and reliance on OpenAI for its $523B backlog.",
@@ -2177,7 +2173,7 @@
     ],
     [
      4,
-     "About 16x forward earnings at the Oct 30 price."
+     "About 15x forward earnings at the Nov 13 price."
     ],
     [
      9,
@@ -2245,11 +2241,7 @@
    "catalysts": [
     [
      "Dec 9, 2026",
-     "Next quarterly earnings (estimated date)"
-    ],
-    [
-     "Mid Dec 2026",
-     "Fiscal Q2 2027 earnings (date not yet confirmed)"
+     "Fiscal Q2 2027 earnings (estimated date)"
     ]
    ],
    "sentiment": "One of the most disliked AI stocks right now: junk-bond fears and OpenAI dependence dominate the conversation.",
@@ -2278,9 +2270,9 @@
    "sector": "Streaming entertainment",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 62.08,
-   "high52": 115.75,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 62.15,
+   "high52": 114.09,
    "low52": 61.99,
    "shares": 4160,
    "summary": "Netflix beat on profit in Q3 but cut its 2026 ad-revenue forecast; the stock is near its lowest in over two years.",
@@ -2316,7 +2308,7 @@
     ],
     [
      4,
-     "About 18x forward earnings at the Oct 30 price."
+     "About 18x forward earnings at the Nov 13 price."
     ],
     [
      10,
@@ -2406,12 +2398,12 @@
    "sector": "AI and data software",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 184.11,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 167.99,
    "high52": 209.05,
    "low52": 107.27,
    "shares": 2400,
-   "summary": "Revenue grew 93% last quarter with US commercial up 149%, but the stock costs about 99x forward earnings.",
+   "summary": "Palantir beat Q3 estimates and raised its 2026 revenue forecast to about $8.53B, but the stock fell because order backlog was flat and it still costs far more than other software stocks.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 6160,
@@ -2444,7 +2436,7 @@
     ],
     [
      0,
-     "About 95x forward earnings at the Oct 30 price."
+     "About 87x forward earnings at the Nov 13 price."
     ],
     [
      12,
@@ -2475,8 +2467,8 @@
      "Government work is steady; commercial deals can slow."
     ],
     [
-     7,
-     "Buy consensus; the target roughly equals the price."
+     6,
+     "Beat and raised on Nov 2, yet the stock dropped as investors focused on a flat backlog and the very high valuation."
     ]
    ],
    "swot": {
@@ -2510,8 +2502,8 @@
    },
    "catalysts": [
     [
-     "Nov 2, 2026",
-     "Q3 2026 earnings"
+     "Early Feb 2027",
+     "Q4 2026 earnings"
     ]
    ],
    "sentiment": "Retail investors love it; many analysts say the business is great but the price is not.",
@@ -2536,8 +2528,8 @@
    "sector": "Cybersecurity software",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 250.43,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 226.61,
    "high52": 278.86,
    "low52": 87.56,
    "shares": 1030,
@@ -2640,11 +2632,7 @@
    "catalysts": [
     [
      "Dec 1, 2026",
-     "Next quarterly earnings (estimated date)"
-    ],
-    [
-     "Early Dec 2026",
-     "Fiscal Q3 2027 earnings (date not yet confirmed)"
+     "Fiscal Q3 2027 earnings (estimated date)"
     ]
    ],
    "sentiment": "Momentum is strong; analysts are split on whether the price has run ahead.",
@@ -2669,12 +2657,12 @@
    "sector": "AI cloud infrastructure (neocloud)",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 154.14,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 115.88,
    "high52": 286.69,
    "low52": 73.87,
    "shares": 274.1,
-   "summary": "Nebius signed about $46B of AI cloud deals with Microsoft and Meta and has sold out its capacity, but it burns cash heavily as it builds.",
+   "summary": "Nebius's Q3 revenue rose about 571% to $981M, beating estimates, but delays at partner data centers pushed its 2026 outlook to the low end and the stock fell about 16%.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 1360,
@@ -2705,7 +2693,7 @@
      "Operating loss and -$5.9B free cash flow."
     ],
     [
-     2,
+     3,
      "No meaningful P/E. The price is 34% lower than in early October."
     ],
     [
@@ -2713,8 +2701,8 @@
      "Big contracts; execution and funding risk."
     ],
     [
-     4,
-     "Needs Nvidia GPUs and power."
+     3,
+     "Depends on partner-built data centers and scarce Nvidia GPUs; delays at partner sites pushed 2026 revenue to the low end of guidance."
     ],
     [
      9,
@@ -2771,8 +2759,8 @@
    },
    "catalysts": [
     [
-     "Nov 10, 2026",
-     "Q3 2026 earnings"
+     "Feb 2027",
+     "Q4 2026 earnings"
     ]
    ],
    "sentiment": "A favorite of AI growth investors; skeptics point to cash burn.",
@@ -2801,10 +2789,10 @@
    "sector": "Crypto exchange",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 143.54,
-   "high52": 343.78,
-   "low52": 141.09,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 127.65,
+   "high52": 284.0,
+   "low52": 127.65,
    "shares": 263.84,
    "summary": "Coinbase's Q3 revenue fell about 35% as crypto trading slowed; gains on its own crypto holdings kept it profitable.",
    "fin": {
@@ -2929,9 +2917,9 @@
    "sector": "Retail brokerage and prediction markets",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 84.99,
-   "high52": 147.08,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 77.86,
+   "high52": 137.08,
    "low52": 65.16,
    "shares": 899.08,
    "summary": "Robinhood posted record Q3 revenue of $1.42B as prediction markets overtook crypto, but growth slowed to 12%.",
@@ -2967,7 +2955,7 @@
     ],
     [
      2,
-     "About 35x forward earnings at the Oct 30 price."
+     "About 32x forward earnings at the Nov 13 price."
     ],
     [
      10,
@@ -3056,8 +3044,8 @@
    "sector": "Banking",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 337.04,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 346.19,
    "high52": 365.18,
    "low52": 282.84,
    "shares": 2660,
@@ -3094,7 +3082,7 @@
     ],
     [
      4,
-     "About 14x forward earnings at the Oct 30 price."
+     "About 14x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -3181,10 +3169,10 @@
    "sector": "Pharmaceuticals (obesity and diabetes drugs)",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 1417.5,
-   "high52": 1417.5,
-   "low52": 844.5,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 1443.5,
+   "high52": 1443.5,
+   "low52": 851.21,
    "shares": 891.36,
    "summary": "Lilly beat and raised again in Q3 as demand for Mounjaro and Zepbound kept surging; it now targets $91-92B of 2026 revenue.",
    "fin": {
@@ -3219,7 +3207,7 @@
     ],
     [
      2,
-     "About 34x forward earnings at the Oct 30 price."
+     "About 35x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -3311,8 +3299,8 @@
    "sector": "Health insurance and services",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 406.97,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 407.46,
    "high52": 436.35,
    "low52": 259.02,
    "shares": 897.59,
@@ -3349,7 +3337,7 @@
     ],
     [
      4,
-     "About 19x forward earnings at the Oct 30 price."
+     "About 19x forward earnings at the Nov 13 price."
     ],
     [
      10,
@@ -3439,9 +3427,9 @@
    "sector": "Warehouse retail",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 1012.3,
-   "high52": 1094.3,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 1106.21,
+   "high52": 1106.21,
    "low52": 850.0,
    "shares": 443.27,
    "summary": "Costco's sales rose 11% last quarter with 9.4% comparable sales, but the stock costs about 40x forward earnings.",
@@ -3477,7 +3465,7 @@
     ],
     [
      1,
-     "About 44x forward earnings at the Oct 30 price."
+     "About 49x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -3544,10 +3532,6 @@
    "catalysts": [
     [
      "Dec 10, 2026",
-     "Next quarterly earnings (estimated date)"
-    ],
-    [
-     "Early Dec 2026",
      "Fiscal Q1 2027 earnings"
     ]
    ],
@@ -3573,8 +3557,8 @@
    "sector": "Retail",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 123.51,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 128.09,
    "high52": 134.2,
    "low52": 100.61,
    "shares": 7930,
@@ -3611,7 +3595,7 @@
     ],
     [
      0,
-     "About 41x forward earnings at the Oct 30 price."
+     "About 42x forward earnings at the Nov 13 price."
     ],
     [
      12,
@@ -3703,12 +3687,12 @@
    "sector": "Nuclear and gas power generation",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 262.38,
-   "high52": 382.48,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 280.2,
+   "high52": 378.6,
    "low52": 236.5,
    "shares": 354.31,
-   "summary": "The largest US nuclear operator is down about 21% in a year on power-price and deal-timing worries, though analysts see 34% upside.",
+   "summary": "Constellation beat Q3 estimates by a wide margin and raised its 2026 EPS guidance for the second time this year, to $12.50-12.80, helped by the Calpine deal and data-center demand.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 31270,
@@ -3741,7 +3725,7 @@
     ],
     [
      3,
-     "About 21x forward earnings at the Oct 30 price."
+     "About 23x forward earnings at the Nov 13 price."
     ],
     [
      11,
@@ -3772,8 +3756,8 @@
      "Power is essential, but prices drop in slowdowns."
     ],
     [
-     6,
-     "Buy consensus with a $347 target; stock weak this year."
+     7,
+     "Buy consensus; the second guidance raise of the year and a planned 2027-2030 outlook at year-end improved sentiment."
     ]
    ],
    "swot": {
@@ -3807,12 +3791,12 @@
    },
    "catalysts": [
     [
-     "Nov 9, 2026",
-     "Next quarterly earnings"
+     "Feb 2027",
+     "Q4 2026 earnings with 2027-2028 guidance and a 2030 growth outlook"
     ],
     [
-     "Nov 6, 2026",
-     "Q3 2026 earnings"
+     "2027",
+     "Rhode Island State Energy Center purchase ($715M) pending approval"
     ]
    ],
    "sentiment": "Analysts are bullish; investors wait for new data-center contracts.",
@@ -3840,12 +3824,12 @@
    "sector": "Small nuclear reactors (pre-revenue)",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 25.25,
-   "high52": 137.39,
-   "low52": 25.25,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 23.92,
+   "high52": 111.65,
+   "low52": 19.2,
    "shares": 186.02,
-   "summary": "Oklo has no real revenue yet and is down about 67% in a year on reactor licensing timeline fears.",
+   "summary": "Oklo still has almost no revenue, its operating loss doubled in Q3, and its first Aurora reactor is now framed as a 2028-2029 start instead of 2028.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 1.2,
@@ -3892,8 +3876,8 @@
      "Data centers want small reactors."
     ],
     [
-     4,
-     "Still pre-revenue years later."
+     3,
+     "Still pre-revenue, and the first Aurora powerhouse slipped from a firm 2028 to a 2028-2029 start."
     ],
     [
      5,
@@ -3942,12 +3926,16 @@
    },
    "catalysts": [
     [
-     "Nov 6, 2026",
-     "Next quarterly earnings"
+     "Mar 2027",
+     "Q4 2026 earnings"
     ],
     [
-     "Nov 10, 2026",
-     "Q3 2026 earnings"
+     "2027",
+     "First contracted isotope delivery (target)"
+    ],
+    [
+     "2028 - 2029",
+     "First Aurora powerhouse in Idaho (target)"
     ]
    ],
    "sentiment": "A meme-like nuclear stock; very volatile.",
@@ -3974,12 +3962,12 @@
    "sector": "Rockets, Starlink and AI",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 134.72,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 139.11,
    "high52": 211.39,
    "low52": 108.27,
    "shares": 13570,
-   "summary": "SpaceX listed in June in the largest IPO ever and is worth about $2.1T; Starlink is growing fast but AI costs pushed it to a loss.",
+   "summary": "SpaceX turned profitable in Q3: revenue rose 161% to $14.6B on its AI compute unit and Starlink, and net income was $4.4B, though it spends about $20B a quarter on capex.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 23040,
@@ -4007,12 +3995,12 @@
    },
    "parts": [
     [
-     5,
-     "$100B cash, but losses and -$32.5B free cash flow."
+     6,
+     "Q3 net income of $4.4B and $8.8B of adjusted EBITDA, with $51B of cash, but $19.6B of quarterly capex keeps free cash flow negative."
     ],
     [
      0,
-     "About 86x forward earnings at the Oct 30 price."
+     "About 89x forward earnings at the Nov 13 price."
     ],
     [
      12,
@@ -4075,7 +4063,16 @@
      "Losses widen and lockup selling."
     ]
    },
-   "catalysts": [],
+   "catalysts": [
+    [
+     "Late Jan 2027",
+     "Q4 2026 earnings"
+    ],
+    [
+     "End of 2026",
+     "Target of $100B annual revenue run rate"
+    ]
+   ],
    "sentiment": "Huge retail excitement; skeptics point to the $2T price for $23B of revenue.",
    "sources": [
     [
@@ -4102,9 +4099,9 @@
    "sector": "Digital bank and lending",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 16.76,
-   "high52": 32.21,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 15.42,
+   "high52": 29.72,
    "low52": 14.22,
    "shares": 1290,
    "summary": "SoFi posted a record Q3, raised its 2026 outlook and gave its first 2027 targets; the stock jumped on the news.",
@@ -4140,7 +4137,7 @@
     ],
     [
      2,
-     "About 23x forward earnings at the Oct 30 price."
+     "About 21x forward earnings at the Nov 13 price."
     ],
     [
      9,
@@ -4229,9 +4226,9 @@
    "sector": "Chipmaking machines (EUV lithography)",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 1565.9,
-   "high52": 1989.4,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 1495.16,
+   "high52": 1989.44,
    "low52": 966.57,
    "shares": 384.1,
    "summary": "ASML is the only maker of the EUV machines every advanced chip needs; the stock is up 87% in a year but faces China export curbs.",
@@ -4267,7 +4264,7 @@
     ],
     [
      2,
-     "About 28x forward earnings at the Oct 30 price."
+     "About 27x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -4353,12 +4350,12 @@
    "sector": "Chip designs and royalties",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 205.97,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 190.53,
    "high52": 439.46,
    "low52": 104.55,
    "shares": 1070,
-   "summary": "Arm doubled in a year on AI server demand and plans to sell its own chips, but trades at about 121x forward earnings.",
+   "summary": "Arm posted record revenue of $1.44B (+27%) and raised its AGI CPU ambitions, but royalty growth slowed and an in-line outlook sent the stock lower; it still trades at a very high multiple.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 5160,
@@ -4391,7 +4388,7 @@
     ],
     [
      1,
-     "About 85x forward earnings at the Oct 30 price."
+     "About 79x forward earnings at the Nov 13 price."
     ],
     [
      11,
@@ -4422,8 +4419,8 @@
      "Phone and PC royalties are cyclical."
     ],
     [
-     6,
-     "Buy consensus, but the target is below the price."
+     5,
+     "Beat on Nov 4, but the stock fell about 5% on an in-line outlook and slower royalties; the average target is below the price."
     ]
    ],
    "swot": {
@@ -4456,8 +4453,8 @@
    },
    "catalysts": [
     [
-     "Nov 4, 2026",
-     "Fiscal Q2 2027 earnings"
+     "Early Feb 2027",
+     "Fiscal Q3 2027 earnings"
     ]
    ],
    "sentiment": "Momentum is strong; valuation skeptics are loud.",
@@ -4482,8 +4479,8 @@
    "sector": "Chips and contract manufacturing (foundry)",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 65.76,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 59.66,
    "high52": 140.94,
    "low52": 33.62,
    "shares": 5250,
@@ -4520,7 +4517,7 @@
     ],
     [
      2,
-     "About 39x forward earnings at the Oct 30 price."
+     "About 36x forward earnings at the Nov 13 price."
     ],
     [
      9,
@@ -4606,8 +4603,8 @@
    "sector": "Data-center power and cooling",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 232.5,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 202.07,
    "high52": 376.23,
    "low52": 149.83,
    "shares": 384.99,
@@ -4644,7 +4641,7 @@
     ],
     [
      2,
-     "About 30x forward earnings at the Oct 30 price."
+     "About 26x forward earnings at the Nov 13 price."
     ],
     [
      12,
@@ -4730,10 +4727,10 @@
    "sector": "Gas turbines, grid and wind",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 857.87,
-   "high52": 1174.9,
-   "low52": 547.96,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 803.13,
+   "high52": 1174.86,
+   "low52": 554.93,
    "shares": 266.33,
    "summary": "GE Vernova beat in Q3, its backlog hit a record $197B, and it agreed to buy Trench Group for $9B.",
    "fin": {
@@ -4768,7 +4765,7 @@
     ],
     [
      1,
-     "About 40x forward earnings at the Oct 30 price."
+     "About 37x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -4857,12 +4854,12 @@
    "sector": "Quantum computing",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 30.04,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 28.88,
    "high52": 72.07,
-   "low52": 26.59,
+   "low52": 26.43,
    "shares": 397.3,
-   "summary": "IonQ is growing revenue fast from a small base but lost $1.4B last year; the stock is down 28% in a year.",
+   "summary": "IonQ's Q3 revenue jumped 336% to $174M, it raised 2026 guidance to $505-515M and its backlog doubled to $1.2B, but it still loses heavily and is issuing $1.15B of stock to buy Elisity.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 246,
@@ -4905,8 +4902,8 @@
      "Specialized parts, few suppliers."
     ],
     [
-     6,
-     "Revenue rising from a small base."
+     7,
+     "Q3 revenue up 336% and contracted backlog of $1.2B, more than double a year ago."
     ],
     [
      6,
@@ -4925,8 +4922,8 @@
      "Speculative stocks fall hardest."
     ],
     [
-     5,
-     "Strong Buy consensus, weak price trend."
+     6,
+     "Strong Buy consensus; the stock jumped 23% the day after the beat-and-raise, though dilution worries remain."
     ]
    ],
    "swot": {
@@ -4959,12 +4956,12 @@
    },
    "catalysts": [
     [
-     "Nov 5, 2026",
-     "Next quarterly earnings"
+     "Late Feb 2027",
+     "Q4 2026 earnings"
     ],
     [
-     "Nov 4, 2026",
-     "Q3 2026 earnings"
+     "2027",
+     "Elisity acquisition ($1.15B in stock) closes"
     ]
    ],
    "sentiment": "Hype-driven and volatile.",
@@ -4989,12 +4986,12 @@
    "sector": "Rockets and space systems",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 54.73,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 61.53,
    "high52": 150.23,
    "low52": 39.48,
    "shares": 598.46,
-   "summary": "Rocket Lab is a growing space company still losing money; its larger Neutron rocket has yet to launch.",
+   "summary": "Rocket Lab's Q3 revenue rose 73% to a record $268M with a $3.6B backlog, but its loss widened and the first Neutron launch slipped into 2027.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 769,
@@ -5029,8 +5026,8 @@
      "No meaningful P/E. The price is 22% lower than in early October."
     ],
     [
-     10,
-     "No. 2 US launcher plus satellites."
+     9,
+     "No. 2 US launcher plus satellites, but Neutron, its key growth rocket, slipped to 2027 after a tank defect."
     ],
     [
      6,
@@ -5091,8 +5088,12 @@
    },
    "catalysts": [
     [
-     "Nov 9, 2026",
-     "Q3 2026 earnings"
+     "Late Feb 2027",
+     "Q4 2026 earnings"
+    ],
+    [
+     "2027",
+     "First Neutron launch (no earlier than 2027)"
     ]
    ],
    "sentiment": "Retail favorite; Neutron timing is the debate.",
@@ -5117,12 +5118,12 @@
    "sector": "E-commerce software",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 157.49,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 147.09,
    "high52": 179.22,
    "low52": 95.4,
    "shares": 1290,
-   "summary": "Shopify grew revenue 34% and merchant sales 32% last quarter, helped by AI shopping traffic.",
+   "summary": "Shopify grew Q3 revenue 32% and beat on profit, but merchant sales (GMV) and subscription revenue missed estimates and the stock fell about 9% given its rich valuation.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 13270,
@@ -5155,7 +5156,7 @@
     ],
     [
      0,
-     "About 74x forward earnings at the Oct 30 price."
+     "About 69x forward earnings at the Nov 13 price."
     ],
     [
      12,
@@ -5186,8 +5187,8 @@
      "Consumer spending drives results."
     ],
     [
-     7,
-     "Buy consensus."
+     6,
+     "Buy consensus, but the stock dropped about 9% after Q3 GMV and subscription revenue missed."
     ]
    ],
    "swot": {
@@ -5220,8 +5221,8 @@
    },
    "catalysts": [
     [
-     "Nov 3, 2026",
-     "Q3 2026 earnings"
+     "Feb 2027",
+     "Q4 2026 earnings"
     ]
    ],
    "sentiment": "Growth investors like it; price is the issue.",
@@ -5246,9 +5247,9 @@
    "sector": "Enterprise workflow software",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 105.12,
-   "high52": 186.94,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 102.25,
+   "high52": 173.5,
    "low52": 83.0,
    "shares": 1030,
    "summary": "ServiceNow fell about 27% after Q3 as growth in contracted revenue slowed, reviving fears that AI will replace software seats.",
@@ -5284,7 +5285,7 @@
     ],
     [
      4,
-     "About 22x forward earnings at the Oct 30 price."
+     "About 22x forward earnings at the Nov 13 price."
     ],
     [
      11,
@@ -5370,8 +5371,8 @@
    "sector": "Customer software (CRM)",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 229.17,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 217.84,
    "high52": 266.23,
    "low52": 150.12,
    "shares": 823,
@@ -5408,7 +5409,7 @@
     ],
     [
      4,
-     "About 15x forward earnings at the Oct 30 price."
+     "About 14x forward earnings at the Nov 13 price."
     ],
     [
      11,
@@ -5503,9 +5504,9 @@
    "sector": "Payments network",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 413.59,
-   "high52": 414.34,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 425.76,
+   "high52": 436.57,
    "low52": 295.52,
    "shares": 1840,
    "summary": "Visa topped estimates and raised guidance as payments volume passed $4T a quarter; stablecoin settlement grew 15x.",
@@ -5541,7 +5542,7 @@
     ],
     [
      3,
-     "About 29x forward earnings at the Oct 30 price."
+     "About 29x forward earnings at the Nov 13 price."
     ],
     [
      13,
@@ -5630,12 +5631,12 @@
    "sector": "Conglomerate (insurance, rail, energy, stocks)",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 542.49,
-   "high52": 548.56,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 592.94,
+   "high52": 592.94,
    "low52": 465.4,
    "shares": 2140,
-   "summary": "Under new CEO Greg Abel, Berkshire has started spending its huge cash pile, including $4.5B of buybacks last quarter.",
+   "summary": "Berkshire's Q3 operating earnings slipped 6% to $12.7B on weaker insurance, but under CEO Greg Abel it bought back $9.6B of stock and still holds about $350B of cash.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 384690,
@@ -5732,8 +5733,8 @@
    },
    "catalysts": [
     [
-     "Nov 2, 2026",
-     "Q3 2026 earnings"
+     "Late Feb 2027",
+     "Q4 2026 earnings and annual letter"
     ]
    ],
    "sentiment": "Trusted, but investors watch the new CEO.",
@@ -5759,10 +5760,10 @@
    "sector": "Oil and gas",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 187.25,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 170.59,
    "high52": 187.25,
-   "low52": 113.68,
+   "low52": 114.51,
    "shares": 4110,
    "summary": "Exxon is up about 45% in a year as oil climbed above $100 and LNG growth improved the outlook.",
    "fin": {
@@ -5797,7 +5798,7 @@
     ],
     [
      4,
-     "About 14x forward earnings at the Oct 30 price."
+     "About 13x forward earnings at the Nov 13 price."
     ],
     [
      11,
@@ -5885,9 +5886,9 @@
    "sector": "Beverages",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 94.08,
-   "high52": 95.34,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 99.25,
+   "high52": 99.25,
    "low52": 67.54,
    "shares": 4300,
    "summary": "Coca-Cola is up about 30% in 2026, beating every Magnificent Seven stock, on volume growth and raised guidance.",
@@ -5923,7 +5924,7 @@
     ],
     [
      2,
-     "About 28x forward earnings at the Oct 30 price."
+     "About 29x forward earnings at the Nov 13 price."
     ],
     [
      12,
@@ -6009,9 +6010,9 @@
    "sector": "Media, parks and streaming",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 110.94,
-   "high52": 116.65,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 118.97,
+   "high52": 119.65,
    "low52": 92.42,
    "shares": 1730,
    "summary": "Disney is down about 12% in a year under new CEO Josh D'Amaro and trades at about 14x forward earnings.",
@@ -6047,7 +6048,7 @@
     ],
     [
      4,
-     "About 15x forward earnings at the Oct 30 price."
+     "About 16x forward earnings at the Nov 13 price."
     ],
     [
      11,
@@ -6113,11 +6114,7 @@
    "catalysts": [
     [
      "Nov 17, 2026",
-     "Next quarterly earnings"
-    ],
-    [
-     "Nov 12, 2026",
-     "Fiscal Q4 2026 earnings"
+     "Fiscal Q4 2026 earnings (estimated date)"
     ]
    ],
    "sentiment": "Seen as cheap; investors want proof from the new CEO.",
@@ -6142,8 +6139,8 @@
    "sector": "Home improvement retail",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 329.2,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 348.69,
    "high52": 391.05,
    "low52": 281.15,
    "shares": 997.69,
@@ -6180,7 +6177,7 @@
     ],
     [
      3,
-     "About 22x forward earnings at the Oct 30 price."
+     "About 23x forward earnings at the Nov 13 price."
     ],
     [
      11,
@@ -6271,12 +6268,12 @@
    "sector": "Korean e-commerce",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 14.37,
-   "high52": 32.13,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 15.19,
+   "high52": 28.22,
    "low52": 13.75,
    "shares": 1800,
-   "summary": "Coupang is down about 57% in a year after a data-breach fine, an SEC complaint and slowing growth in Korea.",
+   "summary": "Coupang's Q3 revenue grew 7% to $10B, beating estimates, but a warehouse fire, data-breach costs and discounts produced a $450M operating loss; margins are not expected to recover until mid-2027.",
    "fin": {
     "period": "TTM to Jun 2026",
     "revenue": 35460,
@@ -6303,8 +6300,8 @@
    },
    "parts": [
     [
-     3,
-     "Losses; free cash flow near zero."
+     2,
+     "Q3 operating loss of $450M and negative free cash flow after the Incheon fire and data-incident costs."
     ],
     [
      1,
@@ -6373,8 +6370,12 @@
    },
    "catalysts": [
     [
-     "Nov 3, 2026",
-     "Q3 2026 earnings"
+     "Late Feb 2027",
+     "Q4 2026 earnings"
+    ],
+    [
+     "Mid 2027",
+     "Product Commerce margins back to pre-incident levels (company target)"
     ]
    ],
    "sentiment": "Very negative after the breach fallout.",
@@ -6395,9 +6396,9 @@
    "sector": "Digital payments",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 57.01,
-   "high52": 69.27,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 59.28,
+   "high52": 62.9,
    "low52": 39.08,
    "shares": 855.46,
    "summary": "PayPal trades under 10x earnings while a new CEO works on a turnaround that may stretch to 2028.",
@@ -6433,7 +6434,7 @@
     ],
     [
      5,
-     "About 10x forward earnings at the Oct 30 price."
+     "About 10x forward earnings at the Nov 13 price."
     ],
     [
      8,
@@ -6519,8 +6520,8 @@
    "sector": "Aircraft and defense",
    "group": "hot",
    "source": "researched",
-   "priceAsOf": "Oct 30, 2026",
-   "price": 171.55,
+   "priceAsOf": "Nov 13, 2026",
+   "price": 171.5,
    "high52": 252.15,
    "low52": 167.14,
    "shares": 790.37,
@@ -9927,6 +9928,10 @@
    [
     "Oct 30, 2026",
     344.63
+   ],
+   [
+    "Nov 13, 2026",
+    356.27
    ]
   ],
   "TSLA": [
@@ -9945,6 +9950,10 @@
    [
     "Oct 30, 2026",
     399.81
+   ],
+   [
+    "Nov 13, 2026",
+    390.22
    ]
   ],
   "AVGO": [
@@ -9963,6 +9972,10 @@
    [
     "Oct 30, 2026",
     326.08
+   ],
+   [
+    "Nov 13, 2026",
+    347.01
    ]
   ],
   "AMD": [
@@ -9981,6 +9994,10 @@
    [
     "Oct 30, 2026",
     504.8
+   ],
+   [
+    "Nov 13, 2026",
+    534.06
    ]
   ],
   "TSM": [
@@ -9999,6 +10016,10 @@
    [
     "Oct 30, 2026",
     406.13
+   ],
+   [
+    "Nov 13, 2026",
+    398.73
    ]
   ],
   "MU": [
@@ -10017,6 +10038,10 @@
    [
     "Oct 30, 2026",
     884.74
+   ],
+   [
+    "Nov 13, 2026",
+    778.31
    ]
   ],
   "ORCL": [
@@ -10035,6 +10060,10 @@
    [
     "Oct 30, 2026",
     130.67
+   ],
+   [
+    "Nov 13, 2026",
+    125.35
    ]
   ],
   "NFLX": [
@@ -10053,6 +10082,10 @@
    [
     "Oct 30, 2026",
     62.08
+   ],
+   [
+    "Nov 13, 2026",
+    62.15
    ]
   ],
   "PLTR": [
@@ -10071,6 +10104,10 @@
    [
     "Oct 30, 2026",
     184.11
+   ],
+   [
+    "Nov 13, 2026",
+    167.99
    ]
   ],
   "CRWD": [
@@ -10089,6 +10126,10 @@
    [
     "Oct 30, 2026",
     250.43
+   ],
+   [
+    "Nov 13, 2026",
+    226.61
    ]
   ],
   "NBIS": [
@@ -10107,6 +10148,10 @@
    [
     "Oct 30, 2026",
     154.14
+   ],
+   [
+    "Nov 13, 2026",
+    115.88
    ]
   ],
   "COIN": [
@@ -10129,6 +10174,10 @@
    [
     "Oct 30, 2026",
     143.54
+   ],
+   [
+    "Nov 13, 2026",
+    127.65
    ]
   ],
   "NVDA": [
@@ -10147,6 +10196,10 @@
    [
     "Oct 30, 2026",
     204.64
+   ],
+   [
+    "Nov 13, 2026",
+    162.85
    ]
   ],
   "MSFT": [
@@ -10165,6 +10218,10 @@
    [
     "Oct 30, 2026",
     521.91
+   ],
+   [
+    "Nov 13, 2026",
+    523.88
    ]
   ],
   "GOOGL": [
@@ -10183,6 +10240,10 @@
    [
     "Oct 30, 2026",
     279.84
+   ],
+   [
+    "Nov 13, 2026",
+    295.77
    ]
   ],
   "AMZN": [
@@ -10201,6 +10262,10 @@
    [
     "Oct 30, 2026",
     240.35
+   ],
+   [
+    "Nov 13, 2026",
+    266.66
    ]
   ],
   "META": [
@@ -10219,6 +10284,10 @@
    [
     "Oct 30, 2026",
     614.99
+   ],
+   [
+    "Nov 13, 2026",
+    641.69
    ]
   ],
   "HOOD": [
@@ -10237,6 +10306,10 @@
    [
     "Oct 30, 2026",
     84.99
+   ],
+   [
+    "Nov 13, 2026",
+    77.86
    ]
   ],
   "UNH": [
@@ -10255,6 +10328,10 @@
    [
     "Oct 30, 2026",
     406.97
+   ],
+   [
+    "Nov 13, 2026",
+    407.46
    ]
   ],
   "SOFI": [
@@ -10273,6 +10350,10 @@
    [
     "Oct 30, 2026",
     16.76
+   ],
+   [
+    "Nov 13, 2026",
+    15.42
    ]
   ],
   "JPM": [
@@ -10291,6 +10372,10 @@
    [
     "Oct 30, 2026",
     337.04
+   ],
+   [
+    "Nov 13, 2026",
+    346.19
    ]
   ],
   "LLY": [
@@ -10309,6 +10394,10 @@
    [
     "Oct 30, 2026",
     1417.5
+   ],
+   [
+    "Nov 13, 2026",
+    1443.5
    ]
   ],
   "COST": [
@@ -10327,6 +10416,10 @@
    [
     "Oct 30, 2026",
     1012.3
+   ],
+   [
+    "Nov 13, 2026",
+    1106.21
    ]
   ],
   "WMT": [
@@ -10345,6 +10438,10 @@
    [
     "Oct 30, 2026",
     123.51
+   ],
+   [
+    "Nov 13, 2026",
+    128.09
    ]
   ],
   "CEG": [
@@ -10363,6 +10460,10 @@
    [
     "Oct 30, 2026",
     262.38
+   ],
+   [
+    "Nov 13, 2026",
+    280.2
    ]
   ],
   "OKLO": [
@@ -10385,6 +10486,10 @@
    [
     "Oct 30, 2026",
     25.25
+   ],
+   [
+    "Nov 13, 2026",
+    23.92
    ]
   ],
   "SPCX": [
@@ -10403,6 +10508,10 @@
    [
     "Oct 30, 2026",
     134.72
+   ],
+   [
+    "Nov 13, 2026",
+    139.11
    ]
   ],
   "ASML": [
@@ -10421,6 +10530,10 @@
    [
     "Oct 30, 2026",
     1565.9
+   ],
+   [
+    "Nov 13, 2026",
+    1495.16
    ]
   ],
   "ARM": [
@@ -10443,6 +10556,10 @@
    [
     "Oct 30, 2026",
     205.97
+   ],
+   [
+    "Nov 13, 2026",
+    190.53
    ]
   ],
   "INTC": [
@@ -10461,6 +10578,10 @@
    [
     "Oct 30, 2026",
     65.76
+   ],
+   [
+    "Nov 13, 2026",
+    59.66
    ]
   ],
   "VRT": [
@@ -10479,6 +10600,10 @@
    [
     "Oct 30, 2026",
     232.5
+   ],
+   [
+    "Nov 13, 2026",
+    202.07
    ]
   ],
   "GEV": [
@@ -10497,6 +10622,10 @@
    [
     "Oct 30, 2026",
     857.87
+   ],
+   [
+    "Nov 13, 2026",
+    803.13
    ]
   ],
   "IONQ": [
@@ -10515,6 +10644,10 @@
    [
     "Oct 30, 2026",
     30.04
+   ],
+   [
+    "Nov 13, 2026",
+    28.88
    ]
   ],
   "RKLB": [
@@ -10537,6 +10670,10 @@
    [
     "Oct 30, 2026",
     54.73
+   ],
+   [
+    "Nov 13, 2026",
+    61.53
    ]
   ],
   "SHOP": [
@@ -10555,6 +10692,10 @@
    [
     "Oct 30, 2026",
     157.49
+   ],
+   [
+    "Nov 13, 2026",
+    147.09
    ]
   ],
   "NOW": [
@@ -10573,6 +10714,10 @@
    [
     "Oct 30, 2026",
     105.12
+   ],
+   [
+    "Nov 13, 2026",
+    102.25
    ]
   ],
   "CRM": [
@@ -10591,6 +10736,10 @@
    [
     "Oct 30, 2026",
     229.17
+   ],
+   [
+    "Nov 13, 2026",
+    217.84
    ]
   ],
   "V": [
@@ -10609,6 +10758,10 @@
    [
     "Oct 30, 2026",
     413.59
+   ],
+   [
+    "Nov 13, 2026",
+    425.76
    ]
   ],
   "BRK.B": [
@@ -10627,6 +10780,10 @@
    [
     "Oct 30, 2026",
     542.49
+   ],
+   [
+    "Nov 13, 2026",
+    592.94
    ]
   ],
   "XOM": [
@@ -10645,6 +10802,10 @@
    [
     "Oct 30, 2026",
     187.25
+   ],
+   [
+    "Nov 13, 2026",
+    170.59
    ]
   ],
   "KO": [
@@ -10663,6 +10824,10 @@
    [
     "Oct 30, 2026",
     94.08
+   ],
+   [
+    "Nov 13, 2026",
+    99.25
    ]
   ],
   "DIS": [
@@ -10681,6 +10846,10 @@
    [
     "Oct 30, 2026",
     110.94
+   ],
+   [
+    "Nov 13, 2026",
+    118.97
    ]
   ],
   "HD": [
@@ -10699,6 +10868,10 @@
    [
     "Oct 30, 2026",
     329.2
+   ],
+   [
+    "Nov 13, 2026",
+    348.69
    ]
   ],
   "CPNG": [
@@ -10717,6 +10890,10 @@
    [
     "Oct 30, 2026",
     14.37
+   ],
+   [
+    "Nov 13, 2026",
+    15.19
    ]
   ],
   "PYPL": [
@@ -10735,6 +10912,10 @@
    [
     "Oct 30, 2026",
     57.01
+   ],
+   [
+    "Nov 13, 2026",
+    59.28
    ]
   ],
   "BA": [
@@ -10753,6 +10934,10 @@
    [
     "Oct 30, 2026",
     171.55
+   ],
+   [
+    "Nov 13, 2026",
+    171.5
    ]
   ],
   "NKE": [
@@ -10775,6 +10960,10 @@
    [
     "Oct 30, 2026",
     38.67
+   ],
+   [
+    "Nov 13, 2026",
+    37.99
    ]
   ],
   "MCD": [
@@ -10793,6 +10982,10 @@
    [
     "Oct 30, 2026",
     258.12
+   ],
+   [
+    "Nov 13, 2026",
+    271.97
    ]
   ],
   "UBER": [
@@ -10811,6 +11004,10 @@
    [
     "Oct 30, 2026",
     65.25
+   ],
+   [
+    "Nov 13, 2026",
+    69.69
    ]
   ],
   "VST": [
@@ -10833,6 +11030,10 @@
    [
     "Oct 30, 2026",
     138.37
+   ],
+   [
+    "Nov 13, 2026",
+    133.01
    ]
   ]
  }

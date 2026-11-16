@@ -189,6 +189,16 @@ def yoy(monthly):
     return out
 
 
+def last_yoy(monthly):
+    """Newest month with a year-over-year change. A month whose year-ago value was never
+    collected (October 2025, during the government shutdown) is skipped."""
+    ch = yoy(monthly)
+    if not ch:
+        return [None, None]
+    y, m = max(ch)
+    return [f"{y}-{m:02d}", r2(ch[(y, m)], 1)]
+
+
 # ---------------------------------------------------------------- SEC EPS
 SEC_PREF = ["us-gaap_EarningsPerShareDiluted", "us-gaap_EarningsPerShareBasicAndDiluted",
             "ifrs-full_DilutedEarningsLossPerShare", "us-gaap_EarningsPerShareBasic", "ifrs-full_BasicEarningsLossPerShare"]
@@ -953,9 +963,9 @@ def main(site_dir, raw, prev_path=None):
         "latest": {k: latest(k) for k in ["DFEDTARU", "DFEDTARL", "DGS10", "DGS2", "DGS3MO", "T10Y2Y", "MORTGAGE30US",
                                           "BAMLH0A0HYM2", "UNRATE", "UMCSENT", "DCOILWTICO", "T5YIE", "ICSA"]},
         "latestYoY": {
-            "cpi": [f"{max(cpi)[0]}-{max(cpi)[1]:02d}", r2(yoy(cpi).get(max(cpi)), 1)],
-            "core": [f"{max(core)[0]}-{max(core)[1]:02d}", r2(yoy(core).get(max(core)), 1)],
-            "pce": [f"{max(pce)[0]}-{max(pce)[1]:02d}", r2(yoy(pce).get(max(pce)), 1)],
+            "cpi": last_yoy(cpi),
+            "core": last_yoy(core),
+            "pce": last_yoy(pce),
             "pay": [f"{max(paych)[0]}-{max(paych)[1]:02d}", r2(paych.get(max(paych)), 0)],
         },
     }

@@ -1,46 +1,34 @@
 {
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-15",
   "economy": {
-    "summary": "After a big earnings week: the Fed held rates on Oct 28 (two officials wanted a hike), Q3 GDP grew a strong 3.4%, and September PCE inflation rose to 3.6%. Results split the AI trade: Microsoft and Amazon's cloud businesses sped up, but Alphabet (-13%), ServiceNow (-27%) and Intel (-29%) had some of their worst days in years. Next up: Apple and Palantir (Nov 2), AMD and Shopify (Nov 3), Uber, Arm and McDonald's (Nov 4), and the October jobs report on Nov 6. The backdrop is unchanged: a war-driven oil shock keeps inflation high and the Fed leaning toward hikes.",
-    "fed": "The Fed raised rates in September, then held at 3.75–4.00% on Oct 28 in a 10–2 vote; the two dissenters wanted another hike. It gave no clear signal about December.",
-    "fedNext": "The next meeting is Dec 8–9. On Oct 28 the Fed held at 3.75–4.00% (Lisa Cook and Beth Hammack voted for a hike) and said it wants more information before acting again. Since then, Q3 GDP grew 3.4% and September PCE inflation rose to 3.6% (core 3.1%), both on Oct 29. Markets price about one more quarter-point hike in 2026. Chair Warsh also said the Fed will hold fewer meetings starting in 2027.",
-    "oil": "The US–Iran war has largely shut the Strait of Hormuz since late February. Brent crude settled near $117 a barrel on Oct 23, a six-month high, as traders bet the U.S. could resume strikes on Iran; U.S. crude (WTI) was about $101 on Oct 26.",
+    "summary": "Two busy weeks: the US struck Iran's Qeshm Island on Nov 3, Democrats won control of Congress in the Nov 3 midterms, and the S&P 500 fell 4.4% on Nov 5 before recovering to 7,562 by Nov 13. October consumer prices rose a hotter-than-expected 0.4%, the 10-year Treasury yield climbed to 5.15%, and markets now price a December rate hike as near-certain. Nvidia's CEO Jensen Huang resigned on Nov 12. Next up: Nvidia and Home Depot (Nov 17), Disney (Nov 17), Walmart (Nov 19) and the Fed on Dec 8-9.",
+    "fed": "The Fed raised rates in September, then held at 3.75-4.00% on Oct 28 in a 10-2 vote; the two dissenters wanted another hike. After the hot October CPI, futures price about an 87% chance of a quarter-point hike in December and a 13% chance of a half-point hike.",
+    "fedNext": "The next meeting is Dec 8-9. October CPI (released Nov 10) rose 0.4% for the month, above the 0.3% expected, with core up 0.3% for a third straight month; there is no annual figure because the 2025 shutdown skipped October 2025 data. Governor Waller said a half-point move should be on the table, and Dallas Fed President Logan wants two more quarter-point hikes. CME FedWatch puts the odds of a December hike near 100%.",
+    "oil": "The US-Iran war has largely shut the Strait of Hormuz since late February. After the US strike on Qeshm Island on Nov 3, US crude (WTI) touched $96, then fell to about $88.50 by Nov 13 as Qatar-mediated talks continued; Brent was near $99 on Nov 4.",
     "sources": [
       [
-        "Fed holds rates steady (CNBC, Oct 28)",
-        "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+        "CPI inflation report: October 2026 (CNBC)",
+        "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
       ],
       [
-        "Fed holds, wants more data before the next move (Bloomberg)",
-        "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision"
+        "October CPI: energy prices hit consumers (Fox Business)",
+        "https://www.foxbusiness.com/economy/cpi-inflation-october-2026"
       ],
       [
-        "Q3 GDP up 3.4% as September inflation accelerates (CNBC, Oct 29)",
-        "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+        "Hot inflation report raises odds of a jumbo hike (Yahoo Finance)",
+        "https://finance.yahoo.com/economy/policy/article/hot-inflation-report-has-wall-street-eyeing-whether-the-fed-could-make-a-jumbo-rate-hike-next-month-164942156.html"
       ],
       [
-        "GDP advance estimate, Q3 2026 (BEA)",
-        "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+        "Dow rallies after Democratic midterm sweep (WBTV)",
+        "https://www.wbtv.com/2026/11/04/stock-futures-rise-after-democrats-take-control-congress/?outputType=amp"
       ],
       [
-        "CME FedWatch: live odds for the next Fed meetings",
-        "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+        "US self-defense strikes on Iran (CBS News)",
+        "https://www.cbsnews.com/news/us-iran-self-defense-strikes-missiles-drones-ceasefire/"
       ],
       [
-        "Alphabet heads for its biggest drop in market value (Yahoo Finance)",
-        "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"
-      ],
-      [
-        "Brent hits a six-month high on Iran tensions (CNBC, Oct 23)",
-        "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
-      ],
-      [
-        "September CPI 3.7% vs. 3.6% expected (investinglive)",
-        "https://investinglive.com/news/us-september-cpi-vs-3-6-expected-0/"
-      ],
-      [
-        "September jobs report (Bureau of Labor Statistics)",
-        "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+        "Closing look, Nov 13 (CappNotes)",
+        "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026"
       ]
     ]
   },
@@ -89,7 +77,7 @@
     ],
     "META": [
       "Oct 21, 2026",
-      "Q3 revenue rose 26% to $64.6B and Q4 is guided to $73B–$76B. But a $9.9B legal charge (a settlement with 52 state attorneys general over teen mental-health claims) cut operating income 37%; without it, EPS would have been $7.40 instead of $3.83. Capital spending of $34.9B was more than the business brought in, so free cash flow was negative $2.1B, and Meta raised the low end of its 2026 capex range (now $135B–$145B). It also plans a non-voting Class C share, handed out as a one-for-one stock dividend in January 2027. The stock fell 7% the next day.",
+      "Q3 revenue rose 26% to $64.6B and Q4 is guided to $73B–$76B. But a $9.9B legal charge (a settlement with 52 state attorneys general over teen mental-health claims) cut operating income 37%; without it, EPS would have been $7.40 instead of $3.83. Capital spending of $34.9B was more than the business brought in, so free cash flow was negative $2.1B, and Meta raised the low end of its 2026 capex range (now $135B–$145B). It also plans a non-voting Class C share, handed out as a one-for-one stock dividend in January 2027. The stock fell 7% the next day. On Nov 9 the stock rose 5.1% after JPMorgan added it to its Analyst Focus List.",
       [
         [
           "Meta Q3 2026 results (Meta)",
@@ -98,16 +86,32 @@
         [
           "Meta sinks as free cash flow turns negative (CNBC)",
           "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+        ],
+        [
+          "Why is Meta stock going up (Trefis)",
+          "https://www.trefis.com/stock/meta/articles/624110/why-is-meta-stock-going-up/2026-11-10"
         ]
       ]
     ],
     "NVDA": [
-      "Oct 26, 2026",
-      "A market-driven week: the stock fell 4.4% on Oct 22 in the AI-spending selloff, then rose 2.4% to $216 on Oct 26 as Anthropic's IPO filing lifted chip stocks; it's about 10% below its record close of $239. Nvidia also expanded its security partnership with CrowdStrike. Next earnings: Nov 18.",
+      "Nov 12, 2026",
+      "Jensen Huang resigned as CEO, president and board member, effective immediately, days after Nvidia opened an investigation into reports that he was the target of a foreign intelligence effort (he admitted an affair). CFO Colette Kress is interim CEO while the board searches; the FT reports Huang is discussing a comeback. The stock fell about 13% in the week to $162.85. Fiscal Q3 results come Nov 17: Nvidia guided about $108B of revenue and options price roughly a 10% move.",
       [
         [
-          "Why Nvidia rose on Monday (Invezz)",
-          "https://invezz.com/news/2026/10/26/why-nvidia-shares-are-rising-on-monday/"
+          "Nvidia announces CEO transition (Nvidia)",
+          "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx"
+        ],
+        [
+          "Jensen Huang resigns, Kress named interim CEO (TechCrunch)",
+          "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+        ],
+        [
+          "Huang discusses comeback, FT reports (US News)",
+          "https://www.usnews.com/news/top-news/articles/2026-11-15/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports"
+        ],
+        [
+          "Nvidia Q3 earnings preview (MarketPulse)",
+          "https://www.marketpulse.com/markets/nvidia-nvda-q3-earnings-preview-ai-spending-risks-and-governance-concerns-threaten-major-uptrend/"
         ]
       ]
     ],
@@ -141,9 +145,17 @@
       []
     ],
     "TSLA": [
-      "Oct 21, 2026",
-      "Q3 revenue was flat at $28.1B, but gross margin improved to 19.6% (from 18.0% a year ago) and adjusted EPS of $0.48 beat the $0.45 estimate. GAAP net income fell 43% to $787M, the operating margin was just 2.6%, energy revenue fell 16%, and free cash flow was $1.5B (vs. $4.0B a year ago). Tesla said its robotaxis have driven nearly 2 million unsupervised miles. The stock fell 3% the day after the report, then jumped 5% on Oct 26.",
+      "Nov 10, 2026",
+      "Tesla fell about 11% on Nov 5 as the midterm results clouded its data-center and SpaceX-merger outlook. On Nov 6 shareholders approved Elon Musk's new pay plan, which targets an $8.5 trillion valuation, and on Nov 9 the stock rose 5.5% as Tesla said robotaxi rides start in San Antonio this week. In Q3 (reported Oct 21): Q3 revenue was flat at $28.1B, but gross margin improved to 19.6% (from 18.0% a year ago) and adjusted EPS of $0.48 beat the $0.45 estimate. GAAP net income fell 43% to $787M, the operating margin was just 2.6%, energy revenue fell 16%, and free cash flow was $1.5B (vs. $4.0B a year ago). Tesla said its robotaxis have driven nearly 2 million unsupervised miles. The stock fell 3% the day after the report, then jumped 5% on Oct 26.",
       [
+        [
+          "What triggered the move in Tesla stock (Trefis)",
+          "https://www.trefis.com/stock/tsla/articles2/624104/what-triggered-the-move-in-tesla-stock/2026-11-10"
+        ],
+        [
+          "Tesla stock rises to $379.78 (Gotrade)",
+          "https://www.heygotrade.com/en/news/tesla-tsla-stock-news-november-11-2026/"
+        ],
         [
           "Tesla Q3 2026 results (Electrek)",
           "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"
@@ -259,9 +271,17 @@
       ]
     ],
     "TSM": [
-      "Oct 15, 2026",
-      "Q3 revenue of $46.7B (up 41%) beat the top of its own guidance; EPS rose 69% with a 58.7% operating margin. TSMC guided Q4 revenue to $52.3B to $54.3B (about 58% growth) and now expects 2026 revenue to grow about 44%.",
+      "Nov 10, 2026",
+      "October revenue hit a record NT$586.9B, up 59.7% from a year earlier and 14.7% from September, on AI and 2-nanometer demand. January-October sales are up 43.3%. October alone is about a third of TSMC's US$52.3B-$54.3B Q4 guide. In Q3 (reported Oct 15): Q3 revenue of $46.7B (up 41%) beat the top of its own guidance; EPS rose 69% with a 58.7% operating margin. TSMC guided Q4 revenue to $52.3B to $54.3B (about 58% growth) and now expects 2026 revenue to grow about 44%.",
       [
+        [
+          "TSMC October revenue report (SEC 6-K)",
+          "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm"
+        ],
+        [
+          "TSMC October sales jump 59.7% (FourWeekMBA)",
+          "https://fourweekmba.com/ai-tsmcs-october-sales-jump-59-7-to-a-2026-high-of-nt586-9b/"
+        ],
         [
           "TSMC Q3 2026 release (SEC 6-K)",
           "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
@@ -313,23 +333,31 @@
       ]
     ],
     "INTC": [
-      "Oct 29, 2026",
-      "Q3 revenue rose 21% to $16.5B and adjusted EPS of $0.52 beat estimates, but Intel guided Q4 revenue to $15.0B–$16.0B, flagged a roughly $300M hit from a plant shutdown in Israel, and said the PC slowdown will likely last at least through the first half of 2027. The stock fell 28.6% on Oct 30.",
+      "Nov 10, 2026",
+      "Intel kept swinging with chip stocks after its Q3 drop: it fell 10.3% on Nov 5 in the post-election sell-off, then rose 7.7% on Nov 6 and 5.5% on Nov 9, with no company news. It is down about 54% since Oct 7. In Q3 (reported Oct 29), revenue grew 21% but a weak Q4 outlook and a $300M plant-shutdown charge sent the stock down 29%.",
       [
         [
-          "Intel Q3 2026 results (SEC 8-K)",
-          "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
+          "What sent Intel stock higher (Trefis)",
+          "https://www.trefis.com/stock/intc/articles/624109/what-sent-intel-stock-higher/2026-11-10"
         ],
         [
-          "Intel beats, but stock sinks (Investing.com)",
-          "https://www.investing.com/news/transcripts/earnings-call-transcript-intel-beats-q3-2026-estimates-but-stock-sinks-93CH-4985498"
+          "What just happened to Intel stock (Trefis)",
+          "https://www.trefis.com/stock/intc/articles/623356/what-just-happened-to-intel-stock/2026-11-06"
         ]
       ]
     ],
     "COIN": [
-      "Oct 29, 2026",
-      "Q3 revenue fell about 35% to $1.20B, below the $1.23B expected, as crypto trading slowed; net income still rose 66% to $719M ($2.51 a share) thanks to gains on the crypto Coinbase holds. The stock fell 10.6% on Oct 30.",
+      "Nov 10, 2026",
+      "Crypto stayed weak after Coinbase's soft Q3: over $1B of leveraged long bets were liquidated in the 24 hours to Nov 8, US spot bitcoin ETFs saw about $1.28B of outflows from Nov 2 to 6, and bitcoin slipped to about $75,000. The stock was about $132 on Nov 10. In Q3 (reported Oct 29): Q3 revenue fell about 35% to $1.20B, below the $1.23B expected, as crypto trading slowed; net income still rose 66% to $719M ($2.51 a share) thanks to gains on the crypto Coinbase holds. The stock fell 10.6% on Oct 30.",
       [
+        [
+          "Bitcoin battles $1 billion of liquidations (Interactive Crypto)",
+          "https://www.interactivecrypto.com/crypto-s-divergent-paths-coinbase-wins-federal-trust-as-bitcoin-battles-1-billion-liquidations"
+        ],
+        [
+          "Coinbase falls with bitcoin (Gotrade)",
+          "https://www.heygotrade.com/id/news/saham-coinbase-coin-turun-11-november-2026/"
+        ],
         [
           "Coinbase Q3 2026 (CNBC)",
           "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html"
@@ -357,6 +385,268 @@
         [
           "Q3 results and call (MarketBeat)",
           "https://www.marketbeat.com/earnings/reports/2026-10-30-exxon-mobil-co-stock/"
+        ]
+      ]
+    ],
+    "MCD": [
+      "Nov 4, 2026",
+      "Global comparable sales rose 1.5%, but US comps fell 0.2% (better than the -0.5% feared) on weak traffic, and international markets grew 1.4% versus 2.1% expected. Adjusted EPS of $3.57 beat, while revenue of $7.16B missed the $7.29B consensus. Management does not expect US results to improve in Q4 and cut its 2026 gross opening target to 2,500 restaurants from 2,600.",
+      [
+        [
+          "McDonald's reports Q3 2026 results (McDonald's)",
+          "https://corporate.mcdonalds.com/corpmcd/our-stories/article/Q3-2026-results.html"
+        ],
+        [
+          "US same-store sales decline on weak traffic (Nation's Restaurant News)",
+          "https://www.nrn.com/restaurant-finance/mcdonald-s-u-s-same-store-sales-decline-on-weak-traffic"
+        ]
+      ]
+    ],
+    "UBER": [
+      "Nov 4, 2026",
+      "Q3 revenue rose about 10% to $14.8B, in line, and gross bookings grew 20% to $59.8B. Adjusted EPS of $0.88 edged past estimates, but GAAP EPS was only $0.25 because of a $476M loss on equity investments. Uber guided Q4 bookings to $63.25B-$65.25B and adjusted EBITDA to $2.41B-$2.51B, slightly below the $2.49B estimate, and the stock slipped.",
+      [
+        [
+          "Uber delivers solid earnings, tepid guidance (Stocktwits)",
+          "https://stocktwits.com/news-articles/markets/equity/uber-delivers-solid-earnings-but-tepid-q4-guidance-sends-stock-lower/cL28OsbR365"
+        ],
+        [
+          "Uber Q3 2026 results (StockStory)",
+          "https://stockstory.org/us/stocks/nyse/uber/news/earnings/ubers-nyseuber-q3-2026-earnings-results-revenue-in-line-with-expectations"
+        ]
+      ]
+    ],
+    "VST": [
+      "Nov 6, 2026",
+      "Adjusted EPS of $3.23 beat the $2.94 estimate, though revenue of $6.35B missed. Vistra narrowed 2026 adjusted EBITDA guidance to $7.1B-$7.5B with a higher midpoint, set 2027 guidance at $7.7B-$8.5B of EBITDA and $4.3B-$5.1B of free cash flow, closed the Cogentrix deal and authorized another $1.5B of buybacks (about $2.5B remaining).",
+      [
+        [
+          "Vistra Q3 earnings beat on power pricing (Zacks)",
+          "https://zacks.com/stock/news/3027394/vst-q3-earnings-beat-on-strong-power-pricing-revenues-rise-y-y"
+        ],
+        [
+          "Vistra reports Q3 2026 results (Finviz)",
+          "https://finviz.com/news/418259/vistra-reports-third-quarter-2026-results"
+        ]
+      ]
+    ],
+    "AAPL": [
+      "Nov 2, 2026",
+      "Fiscal Q4 revenue rose 12% to a September-quarter record $114.5B and EPS was $2.10 ($2.05 excluding tariff refunds) versus about $1.98 expected. iPhone revenue grew about 17% to $57.6B and Services hit a record $31.6B. Apple guided December-quarter revenue up 7-10%, which it called the best quarter in its history, but iPhone Duo deliveries slip into 2027 in some cases and the 45-46% gross margin guide disappointed; the stock fell about 4%.",
+      [
+        [
+          "Apple posts fiscal Q4 2026 results (MacTrast)",
+          "https://www.mactrast.com/2026/11/apple-posts-fiscal-q4-2026-results-30-7b-profit-on-114-5b-revenue/amp/"
+        ],
+        [
+          "Apple Q4 FY26 beats expectations (Shacknews)",
+          "https://www.shacknews.com/article/151242/apple-aapl-q4-2026-earnings-results"
+        ]
+      ]
+    ],
+    "AVGO": [
+      "Nov 9, 2026",
+      "Broadcom swung with the AI trade: it fell 10.4% on Nov 5 in the post-election chip sell-off, then jumped 8.8% on Nov 9 with no company news. Fiscal Q4 results come Dec 10.",
+      [
+        [
+          "What sent Broadcom stock higher (Trefis)",
+          "https://www.trefis.com/stock/avgo/articles/624088/what-sent-broadcom-stock-higher/2026-11-10"
+        ]
+      ]
+    ],
+    "AMD": [
+      "Nov 3, 2026",
+      "Q3 revenue rose 45% to a record $13.4B, above AMD's own $12.7B-$13.3B range, with data center revenue up 97% to $8.5B (server CPUs +103%, Instinct GPUs +98% on the MI450 launch). Adjusted EPS was $2.09, up 74%. AMD guided Q4 revenue to about $17B (plus or minus 3%), roughly 66% growth, with gross margin near 55%. The stock rose about 5% after hours; analysts flagged a large inventory build weighing on cash flow.",
+      [
+        [
+          "AMD record Q3 as data center rises 97% (Let's Data Science)",
+          "https://letsdatascience.com/news/amd-reports-record-q3-as-data-center-revenue-rises-97-d2aab34a"
+        ],
+        [
+          "AMD Q3 2026 results (Constellation Research)",
+          "https://www.constellationr.com/insights/news/amd-q3-shines-data-center-revenue-nearly-doubles"
+        ]
+      ]
+    ],
+    "MU": [
+      "Nov 13, 2026",
+      "Micron rose about 13% in the week to $778 after TrendForce forecast higher Q4 DRAM and NAND contract prices, recovering part of its early-November slide. Fiscal Q1 2027 results are expected around Dec 16.",
+      [
+        [
+          "Weekly market review, Nov 13 (The Glass Desk)",
+          "https://theglassdesk.substack.com/p/weekly-market-review-nov-13-2026"
+        ],
+        [
+          "Weekly market review (Alpha Seeker)",
+          "https://alphaseeker84.substack.com/p/weekly-market-review-week-of-2026-ddf"
+        ]
+      ]
+    ],
+    "PLTR": [
+      "Nov 2, 2026",
+      "Q3 revenue of $2.31B beat the $2.17B forecast and adjusted EPS of $0.44 beat $0.41. Palantir raised its 2026 revenue guidance to $8.530B-$8.534B. The stock still fell about 3% the next day and more after hours, as analysts pointed to order backlog that was flat from the prior quarter and investors grew choosier about AI stocks.",
+      [
+        [
+          "Palantir Q3 2026 press release (SEC)",
+          "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        ],
+        [
+          "Palantir slumps on good numbers (Axios)",
+          "https://www.axios.com/2026/11/04/palantir-ai-earnings-stock"
+        ]
+      ]
+    ],
+    "NBIS": [
+      "Nov 12, 2026",
+      "Q3 revenue of about $981M (up roughly 571%) beat the $907.5M estimate, but Nebius said delays at partner data centers put its 2026 revenue at the low end of its forecast range. Reported backlog barely grew from June. The stock fell about 16% to around $131.",
+      [
+        [
+          "Nebius reports Q3 2026 results (Morningstar/Business Wire)",
+          "https://www.morningstar.com/news/business-wire/20261112208769/nebius-reports-third-quarter-2026-financial-results"
+        ],
+        [
+          "Nebius beats Q3 estimates, shares fall on delays (StockAnalysis)",
+          "https://stockanalysis.com/news/nebius-q3-2026-earnings/"
+        ]
+      ]
+    ],
+    "COST": [
+      "Nov 4, 2026",
+      "October net sales rose 12.6% to $24.5B. Comparable sales excluding gas and currency rose 7.3% (US 8.1%), and digital sales grew 22.5%. Higher gas prices added about 4 points to reported comps.",
+      [
+        [
+          "Costco reports October sales results (Morningstar/GlobeNewswire)",
+          "https://www.morningstar.com/news/globe-newswire/9870370/costco-wholesale-corporation-reports-october-sales-results"
+        ]
+      ]
+    ],
+    "CEG": [
+      "Nov 9, 2026",
+      "Adjusted operating EPS of $5.06 beat the $3.89 estimate (a year ago: $3.04) and revenue rose about 45% to $9.55B with Calpine included. Constellation raised 2026 guidance to $12.50-$12.80 from $11.50-$12.50, agreed to buy the Rhode Island State Energy Center for $715M and got a conditional loan commitment of up to $5B. It will give 2027-2028 guidance and a growth outlook to 2030 with year-end results.",
+      [
+        [
+          "Constellation reports Q3 2026 results (Constellation)",
+          "https://www.constellationenergy.com/news/2026/11/constellation-reports-third-quarter-2026-results.html"
+        ],
+        [
+          "Constellation raises 2026 outlook after Q3 beat (Stocktwits)",
+          "https://stocktwits.com/news-articles/markets/equity/constellation-energy-raises-2026-earnings-outlook-after-q3-beat-ceo-highlights-growing-demand-for-reliable-power/cNGrQIqR9ew"
+        ]
+      ]
+    ],
+    "OKLO": [
+      "Nov 6, 2026",
+      "Q3 revenue was about $1.9M and the operating loss doubled to $71M; cash and securities were about $3.1B. Oklo now frames its first Aurora powerhouse as a 2028-2029 start instead of 2028, and a PJM setback added to the timeline worries. It did win approval for a new fuel facility.",
+      [
+        [
+          "Oklo Q3 2026 results and business update (Finviz)",
+          "https://finviz.com/news/418307/oklo-publishes-third-quarter-2026-financial-results-and-business-update"
+        ],
+        [
+          "Oklo narrows loss but Aurora slips (Finviz)",
+          "https://finviz.com/news/418461/oklo-narrows-its-loss-against-expectations-but-an-aurora-slip-and-pjm-setback-overshadow-construction-progress"
+        ]
+      ]
+    ],
+    "SPCX": [
+      "Oct 20, 2026",
+      "Q3 revenue rose 161% to $14.6B, beating the roughly $12.7B consensus, and net income was $4.4B versus a $1.1B loss a year ago. The AI unit brought in $7.56B and Starlink-led connectivity $5.25B (+69%, about 13.6M subscribers). Capex was $19.6B. SpaceX expects Q1 2027 revenue of $33B-$37B. The stock fell 9% on Nov 5 on midterm regulation worries, then recovered to about $143 by Nov 10.",
+      [
+        [
+          "SpaceX beats Q3 forecasts (investingLive)",
+          "https://investinglive.com/stocks/spacex-beats-q3-forecasts-across-all-three-segments-as-ai-revenue-tops-7-5-billion/"
+        ],
+        [
+          "SpaceX Q3 revenue surges 161% (Pulse 2.0)",
+          "https://pulse2.com/spacex-q3-revenue-surges-161-to-14-6-billion-as-super-intelligence-and-starlink-growth-accelerate/"
+        ],
+        [
+          "SpaceX stock falls 9% on midterm worries (Gotrade)",
+          "https://www.heygotrade.com/en/news/spacex-spcx-stock-news-november-6-2026/"
+        ]
+      ]
+    ],
+    "ARM": [
+      "Nov 4, 2026",
+      "Fiscal Q2 revenue rose 27% to a record $1.44B and adjusted EPS of $0.52 beat forecasts. Arm raised its AGI CPU revenue outlook to up to $2B across fiscal 2027-2028, but royalty growth slowed sharply, annualized contract value was a bit light and Q3 guidance (EPS $0.52-$0.60) only matched estimates. The stock fell about 5% after hours.",
+      [
+        [
+          "Arm Q2 FY27 results (Arm)",
+          "https://newsroom.arm.com/news/arm-holdings-plc-reports-results-for-the-second-quarter-of-the-fiscal-year-ending-2027"
+        ],
+        [
+          "Arm shares fall despite Q2 beat (investingLive)",
+          "https://investinglive.com/stocks/arm-shares-fall-5-after-hours-despite-q2-beat-as-outlook-only-edges-past-forecasts/"
+        ]
+      ]
+    ],
+    "IONQ": [
+      "Nov 5, 2026",
+      "Q3 revenue rose 336% to $173.8M versus $141M expected, and IonQ raised 2026 revenue guidance to $505M-$515M. Remaining performance obligations doubled to $1.2B. The operating loss was about $433M; GAAP net income of $564M came only from a non-cash warrant gain. IonQ also agreed to buy security firm Elisity for $1.15B in stock. The stock rose about 23% the next day.",
+      [
+        [
+          "IonQ record Q3 and raised guidance (IonQ)",
+          "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Record-3Q26-Revenues-and-Raises-FY2026-Guidance-to-505---515-Million-as-Backlog-Grows-to-1-2-Billion/"
+        ],
+        [
+          "Why IonQ stock is soaring (Motley Fool)",
+          "https://fool.com/investing/2026/11/06/why-ionq-stock-is-soaring-today"
+        ]
+      ]
+    ],
+    "RKLB": [
+      "Nov 9, 2026",
+      "Q3 revenue rose 73% to a record $268M and backlog reached about $3.6B, but the loss of $0.12 a share was wider than the $0.07 expected. A propellant-tank defect pushed Neutron's first launch to no earlier than 2027, though eight Neutron missions were booked at a new $70M base price. Q4 revenue is guided to $270M-$290M; liquidity is about $4.7B. The stock fell about 5% after hours.",
+      [
+        [
+          "Rocket Lab falls after Q3 miss despite record backlog (Finviz)",
+          "https://finviz.com/news/419807/rocket-lab-shares-fall-over-5-after-q3-earnings-miss-despite-73-revenue-growth-and-record-backlog"
+        ],
+        [
+          "Rocket Lab Q3 earnings call highlights (MarketBeat)",
+          "https://www.marketbeat.com/instant-alerts/transcript-rocket-lab-q3-earnings-call-highlights-2026-11-09/"
+        ]
+      ]
+    ],
+    "SHOP": [
+      "Nov 3, 2026",
+      "Revenue grew 32% to about $3.7B, ahead of Shopify's own low-30s guide, and adjusted EPS of $0.49 beat. But GMV of about $119B missed the $120B estimate and subscription revenue of $836M missed $850M. AI-referred orders rose 3.3x. The stock closed down about 9%.",
+      [
+        [
+          "Why Shopify stock dove today (Motley Fool)",
+          "https://www.fool.com/investing/2026/11/03/why-shopify-stock-dove-today/"
+        ],
+        [
+          "Shopify sinks as GMV misses (TIKR)",
+          "https://www.tikr.com/blog/shopify-sinks-15-as-q3-gmv-and-subscription-revenue-miss-estimates-not-uncommonly-good"
+        ]
+      ]
+    ],
+    "BRK.B": [
+      "Nov 7, 2026",
+      "Q3 operating earnings fell 5.8% to $12.7B as insurance underwriting profit dropped 43%, while BNSF rose 19%. Berkshire bought back $9.6B of its own stock, more than double the prior quarter. Its cash and Treasury bills dipped to $352B from $359B in June.",
+      [
+        [
+          "Berkshire Hathaway news release (Morningstar/Business Wire)",
+          "https://www.morningstar.com/news/business-wire/20261107409212/berkshire-hathaway-inc-news-release"
+        ],
+        [
+          "Berkshire Q3 operating earnings fall 5.8% (StockAnalysis)",
+          "https://stockanalysis.com/news/berkshire-q3-operating-earnings-fall-buybacks/"
+        ]
+      ]
+    ],
+    "CPNG": [
+      "Nov 3, 2026",
+      "Revenue rose 7% (11% in constant currency) to $10.0B, above the $9.75B estimate, but Coupang posted a $450M operating loss and a $501M net loss as an Incheon fulfillment-center fire, data-incident costs and customer discounts hit margins. Free cash flow was -$72M. It guided Q4 constant-currency growth of 13-14% and expects margins to recover by mid-2027.",
+      [
+        [
+          "Coupang Q3 2026 results (SEC)",
+          "https://www.sec.gov/Archives/edgar/data/0001834584/000183458426000084/cpng-09302026ex991.htm"
+        ],
+        [
+          "Coupang Q3 2026 earnings summary (Quartr)",
+          "https://quartr.com/events/coupang-inc-cpng-q3-2026_3PDtyrvL"
         ]
       ]
     ]
